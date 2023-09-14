@@ -1,0 +1,31 @@
+body {
+  font-family: 'Roboto Slab';
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar {
+  background-color: $lab-blue;
+  margin-bottom: 1rem;
+  height: 10rem;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.navbar-dark {
+  background-color: $primary;
+}
+
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+  margin-right: 0.5rem;
+}
+
+.navbar-brand img {
+  height: 9rem;
+}
