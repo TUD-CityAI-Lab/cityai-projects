@@ -29,3 +29,24 @@ img {
 .navbar-brand img {
   height: 9rem;
 }
+
+@media (max-width: 767px) {
+  .navbar-brand img {
+    height: 6rem;
+  }
+  
+  .navbar {
+    height: 8rem;
+  }
+
+  .navbar-brand {
+    h1 a {
+      font-size: 1.1rem;
+    }
+
+    a {
+      font-size: 1rem;
+    }
+  }
+}
+
