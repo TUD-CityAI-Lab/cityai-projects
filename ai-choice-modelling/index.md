@@ -12,4 +12,4 @@ However, the full modelling process leading to the final choice models reported 
 
 The project has two main objectives. Firstly, it aims to provide a comprehensive understanding of the various modelling steps employed by choice modellers during the collection of choice data and the development of choice models. Secondly, it seeks to develop a set of tools that can support choice modellers by offering recommendations and automating various stages of data collection, analysis, model specification development, and outcome interpretation. These tools will streamline the process and enhance the efficiency of choice modelling, enabling researchers to make better-informed modelling decisions and draw meaningful conclusions from their analyses. 
 
-![Noise mapping with smart sensors]({{ 'noise-pollution-and-perception/images/sensor_noise_mapping.jpg' | relative_url }})
+![Research Degree of Freedom]({{ 'ai-choice-modelling/choice_modellers.png' | relative_url }})
