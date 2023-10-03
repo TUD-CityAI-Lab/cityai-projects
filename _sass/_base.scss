@@ -1,4 +1,8 @@
 body {
+  font-family: Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
   font-family: 'Roboto Slab';
 }
 
@@ -27,7 +31,7 @@ img {
 }
 
 .navbar-brand img {
-  height: 9rem;
+  height: 10rem;
 }
 
 @media (max-width: 767px) {
