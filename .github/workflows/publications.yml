@@ -24,10 +24,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install pybliometrics
 
-      - name: execute python script
+      - name: prepare pybliometrics
         env:
           SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
-        run: python _automation/update_publications.py $SCOPUS_API_KEY
+        run: python _automation/prepare_pybliometrics.py $SCOPUS_API_KEY
+
+      - name: execute python script
+        run: python _automation/update_publications.py
 
       - name: commit updated list of publications
         run: |
