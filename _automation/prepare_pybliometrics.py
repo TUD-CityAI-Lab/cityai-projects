@@ -20,7 +20,7 @@ PlumXMetrics = /home/runner/.cache/pybliometrics/Scopus/plumx
 SubjectClassifications = /home/runner/.cache/pybliometrics/Scopus/subject_classification
 
 [Authentication]
-APIKey = {sys.argv[1]}
+APIKey = 52a3dd44114b12b72933c41192a060d3
 
 [Requests]
 Timeout = 20
