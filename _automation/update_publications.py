@@ -15,7 +15,7 @@ authors = [
 documents = []
 
 for author_id in authors:
-  author = AuthorRetrieval(author_id)
+  author = AuthorRetrieval(author_id, subscriber=False)
   author_docs = author.get_documents()
   documents.extend(author_docs)
 
