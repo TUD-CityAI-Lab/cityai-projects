@@ -1,11 +1,11 @@
 import sys
 import os
 
-if not os.path.exists('~/.config/'):
-    os.makedirs('~/.config/')
+if not os.path.exists('/home/runner/.config/'):
+    os.makedirs('/home/runner/.config/')
 
-if not os.path.isfile('~/.config/pybliometics.cfg'):
-  file = open('~/.config/pybliometics.cfg', 'w') 
+if not os.path.isfile('/home/runner/.config/pybliometrics.cfg'):
+  file = open('/home/runner/.config/pybliometrics.cfg', 'w') 
   file.write(f'''[Directories]
   AbstractRetrieval = PPP/.pybliometrics/Scopus/abstract_retrieval
   AffiliationSearch = PPP/.pybliometrics/Scopus/affiliation_search
