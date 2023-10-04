@@ -21,7 +21,6 @@ for author_id in authors:
 
 # remove duplicates
 documents = list(set(documents))
-len(documents)
 
 # filter and sort by date
 documents = list(filter(lambda x: x.coverDate > '2020-01-01', documents))

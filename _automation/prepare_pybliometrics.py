@@ -7,21 +7,24 @@ if not os.path.exists('/home/runner/.config/'):
 if not os.path.isfile('/home/runner/.config/pybliometrics.cfg'):
   file = open('/home/runner/.config/pybliometrics.cfg', 'w') 
   file.write(f'''[Directories]
-  AbstractRetrieval = PPP/.pybliometrics/Scopus/abstract_retrieval
-  AffiliationSearch = PPP/.pybliometrics/Scopus/affiliation_search
-  AuthorRetrieval = PPP/.pybliometrics/Scopus/author_retrieval
-  AuthorSearch = PPP/.pybliometrics/Scopus/author_search
-  CitationOverview = PPP/.pybliometrics/Scopus/citation_overview
-  AffiliationRetrieval = PPP/.pybliometrics/Scopus/affiliation_retrieval
-  ScopusSearch = PPP/.pybliometrics/Scopus/scopus_search
-  SerialTitle = PPP/.pybliometrics/Scopus/serial_title
+AbstractRetrieval = /home/runner/.cache/pybliometrics/Scopus/abstract_retrieval
+AffiliationRetrieval = /home/runner/.cache/pybliometrics/Scopus/affiliation_retrieval
+AffiliationSearch = /home/runner/.cache/pybliometrics/Scopus/affiliation_search
+AuthorRetrieval = /home/runner/.cache/pybliometrics/Scopus/author_retrieval
+AuthorSearch = /home/runner/.cache/pybliometrics/Scopus/author_search
+CitationOverview = /home/runner/.cache/pybliometrics/Scopus/citation_overview
+ScopusSearch = /home/runner/.cache/pybliometrics/Scopus/scopus_search
+SerialSearch = /home/runner/.cache/pybliometrics/Scopus/serial_search
+SerialTitle = /home/runner/.cache/pybliometrics/Scopus/serial_title
+PlumXMetrics = /home/runner/.cache/pybliometrics/Scopus/plumx
+SubjectClassifications = /home/runner/.cache/pybliometrics/Scopus/subject_classification
 
-  [Authentication]
-  APIKey = {sys.argv[1]}
+[Authentication]
+APIKey = {sys.argv[1]}
 
-  [Requests]
-  Timeout = 20
-  Retries = 5''')
+[Requests]
+Timeout = 20
+Retries = 5''')
   file.close()
 
 with open('/home/runner/.config/pybliometrics.cfg', 'r') as f:
