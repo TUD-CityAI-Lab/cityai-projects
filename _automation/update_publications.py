@@ -1,7 +1,10 @@
-import os.path
 import sys
+import os
 
-if os.path.isfile('~/.config/pybliometics.cfg') == False:
+if not os.path.exists('~/.config/'):
+    os.makedirs('~/.config/')
+
+if not os.path.isfile('~/.config/pybliometics.cfg'):
   file = open('~/.config/pybliometics.cfg', 'w') 
   file.write(f'''[Directories]
   AbstractRetrieval = PPP/.pybliometrics/Scopus/abstract_retrieval
