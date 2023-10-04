@@ -70,3 +70,27 @@ img {
   }
 }
 
+
+
+ul.publications {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: 1rem;
+  }
+}
+
+.publication-title {
+  font-size: 1.1rem;
+  font-family: 'Roboto Slab';
+  a {
+    text-decoration: none;
+  }
+}
+
+.journal-name {
+  font-style: italic;
+  font-size: 0.9rem;
+}
