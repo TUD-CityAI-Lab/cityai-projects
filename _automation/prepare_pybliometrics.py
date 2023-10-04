@@ -23,3 +23,8 @@ if not os.path.isfile('~/.config/pybliometics.cfg'):
   Timeout = 20
   Retries = 5''')
   file.close()
+
+with open('/home/runner/.config/pybliometrics.cfg', 'r') as f:
+    print(f.read())
+
+print('DONE PREPARE')
