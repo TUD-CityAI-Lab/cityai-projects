@@ -1,39 +1,60 @@
-from pybliometrics.scopus import AuthorRetrieval
+from crossref.restful import Works
+from pybliometrics.scopus import ScopusSearch
 import shutil
 
-authors = [
-  55342333800, # Sander
-  24344046200, # Maarten
-  36695851100, # Simeon
-  35751118200, # Oded
-  57568162000, # Francisco
-  58288387600, # Lucas
-  57196345277, # Yiru
-  57694437300, # Nicholas
-]
+print('query scopus...')
 
-documents = []
+publications = ScopusSearch('''
+PUBYEAR > 2019 
+AND (
+  AU-ID("van Cranenburgh, Sander" 55342333800)OR
+  AU-ID("Kroesen, Maarten" 24344046200) OR
+  AU-ID("Calvert, Simeon C." 36695851100) OR
+  AU-ID("Cats, Oded" 35751118200) OR
+  AU-ID("Garrido-Valenzuela, Francisco" 57568162000) OR
+  AU-ID("Spierenburg, Lucas" 58288387600) OR
+  AU-ID("Jiao, Yiru" 57196345277) OR
+  AU-ID("Smeele, Nicholas V.R." 57694437300)
+) 
+AND (
+  FIRSTAUTH("van Cranenburgh") OR
+  FIRSTAUTH("Kroesen") OR
+  FIRSTAUTH("Calvert") OR
+  FIRSTAUTH("Cats") OR
+  FIRSTAUTH("Garrido-Valenzuela") OR
+  FIRSTAUTH("Spierenburg") OR
+  FIRSTAUTH("Jiao") OR
+  FIRSTAUTH("Smeele")
+)
+''', subscriber=False).results
 
-for author_id in authors:
-  author = AuthorRetrieval(author_id, subscriber=False)
-  author_docs = author.get_documents()
-  documents.extend(author_docs)
+print(f'{len(publications)} publications received from scopus')
 
-# remove duplicates
-documents = list(set(documents))
+# sort publications by date
+documents = sorted(publications, key=lambda x: x.coverDate, reverse=True)
 
-# filter and sort by date
-documents = list(filter(lambda x: x.coverDate > '2020-01-01', documents))
-documents = sorted(documents, key=lambda x: x.coverDate, reverse=True)
-
+# generate HTML and query author names from crossref
 html = '<!-- AUTO GENERATED FILE, DO NOT EDIT MANUALLY -->\n\n<ul class="publications">'
+for publication in publications:
+  print(f'processing: {publication.doi}')
 
-for doc in documents:
+  works = Works()
+  ref = works.doi(publication.doi)
+
+  authors = ''
+  if ref is None:
+    print('Error: authors could not be retrieved from crossref (skip)!')
+    continue
+
+  for author in ref['author']:
+    authors += author['family'] + ', ' + author['given'][:1] + '.' + ', '
+  authors = authors[:-2]
+
   html += f'''
   <li class="publication-list-item">
-    <div class="publication-title"><a href="https://doi.org/{doc.doi}">{doc.title}</a></div>
-    <div>{doc.author_names.replace(';', ', ')}</div>
-    <div><b class="journal-name">{doc.publicationName}</b>, {doc.coverDate[:4]}</div>
+    <div class="publication-title"><a href="https://doi.org/{publication.doi}">{publication.title}</a></div>
+    <div>{authors}</div>
+    <div><b class="journal-name">{publication.publicationName}</b>, {publication.coverDate[:4]}</div>
   </li>'''
 
 html += '</ul>'
@@ -43,3 +64,5 @@ shutil.copy('_automation/_publications.html', 'publications.html')
 file = open('publications.html', 'a') 
 file.write(html)
 file.close()
+
+print("Done!")
