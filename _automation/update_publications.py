@@ -24,7 +24,9 @@ AND (
   FIRSTAUTH("Garrido-Valenzuela") OR
   FIRSTAUTH("Spierenburg") OR
   FIRSTAUTH("Jiao") OR
-  FIRSTAUTH("Smeele")
+  FIRSTAUTH("Smeele") OR
+  FIRSTAUTH("Cassens") OR
+  FIRSTAUTH("Nova")
 )
 ''', subscriber=False).results
 
@@ -59,9 +61,9 @@ for publication in publications:
 
 html += '</ul>'
 
-shutil.copy('_automation/_publications.html', 'publications.html')
+shutil.copy('_automation/_publications.html', 'publications/index.html')
 
-file = open('publications.html', 'a') 
+file = open('publications/index.html', 'a') 
 file.write(html)
 file.close()
 
