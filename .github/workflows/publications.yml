@@ -39,5 +39,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -a -m "updated list of publications"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "updated list of publications"
           git push
