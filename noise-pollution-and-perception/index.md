@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Listening to our Cities: Using Smart Sensors and Machine Learning to Study Urban Noise Pollution"
 ---
 
 ## Listening to our Cities: Using Smart Sensors and Machine Learning to Study Urban Noise Pollution

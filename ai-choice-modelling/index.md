@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Artificial intelligence to comprehend, automate and assist choice modellers` decisions
 ---
 
 ## Using artificial intelligence to comprehend, automate and assist choice modellers` decisions

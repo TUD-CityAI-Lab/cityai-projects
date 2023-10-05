@@ -12,11 +12,10 @@ img {
 
 .navbar {
   background-color: $lab-blue;
+  
   margin-bottom: 1rem;
-  height: 10rem;
-  @media (max-width: 991px) {
-    padding-top: 0;
-  }
+  padding-bottom: 0;
+  padding-top: 0;
 
   img {
     margin-right: 1rem;
@@ -32,8 +31,30 @@ img {
   }
 }
 
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.nav-item {
+  background-color: $lab-blue;
+  margin-left: 1rem;
+  @media (max-width: 991px) {
+    margin-left: 0;
+  }
+}
+
 .nav-link {
   color: #ffffff;
+  font-size: 1.4rem;
+
+  @media (max-width: 991px) {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+  }
+}
+
+.navbar-toggler {
+  background-color: $lab-blue;
 }
 
 .navbar-dark {
@@ -53,10 +74,6 @@ img {
 @media (max-width: 767px) {
   .navbar-brand img {
     height: 6rem;
-  }
-  
-  .navbar {
-    height: 8rem;
   }
 
   .navbar-brand {

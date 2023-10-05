@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Hello World (title for google results and browser tab)
 ---
 
 # Hello World!
