@@ -195,8 +195,10 @@
 .home-left-section {
   width: 50%;
   height: auto;
+  margin: 0px;
   display: flex;
   align-self: flex-start;
+  margin-top: 0px;
   align-items: stretch;
   margin-left: 0px;
   padding-top: var(--dl-space-space-doubleunit);
@@ -205,6 +207,7 @@
   margin-right: 0px;
   padding-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0px;
   padding-right: var(--dl-space-space-doubleunit);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-doubleunit);
@@ -302,15 +305,13 @@
   width: 50%;
   height: auto;
   display: flex;
+  padding: 0px;
   flex-wrap: wrap;
   align-self: flex-start;
   align-items: stretch;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-doubleunit);
+  margin-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-doubleunit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-doubleunit);
   justify-content: flex-start;
 }
 .home-container3 {
@@ -325,6 +326,7 @@
   width: 100%;
   height: auto;
   display: flex;
+  padding: 0px;
   align-items: flex-start;
   margin-left: 0px;
   padding-top: var(--dl-space-space-unit);
@@ -380,7 +382,7 @@
   height: auto;
   display: flex;
   align-items: flex-start;
-  padding-top: var(--dl-space-space-unit);
+  padding-top: 0px;
   border-color: var(--dl-color-gray-900);
   border-width: 1px;
   padding-left: var(--dl-space-space-unit);
@@ -428,7 +430,7 @@
   height: auto;
   display: flex;
   align-items: flex-start;
-  padding-top: var(--dl-space-space-unit);
+  padding-top: 0px;
   border-color: var(--dl-color-gray-900);
   border-width: 1px;
   padding-left: var(--dl-space-space-unit);
