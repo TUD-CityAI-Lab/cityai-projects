@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Urban embeddings
+title: Hello World (title for google results and browser tab)
 ---
 
 # Understanding the relationships between urban space, perceptions and behaviours using urban embeddings
