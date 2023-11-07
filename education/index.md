@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "CityAI Lab Education: Courses, Bachelor and Master projects"
+title: "CityAI Lab: Master projects"
 ---
 
 ## Education

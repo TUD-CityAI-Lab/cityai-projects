@@ -10,7 +10,7 @@ img {
   max-width: 100%;
 }
 
-.navbar {
+.primary-nav.navbar {
   background-color: $lab-blue;
   
   margin-bottom: 1rem;
@@ -31,11 +31,11 @@ img {
   }
 }
 
-.navbar-collapse {
+.primary-nav .navbar-collapse {
   flex-grow: 0;
 }
 
-.nav-item {
+.primary-nav .nav-item {
   background-color: $lab-blue;
   margin-left: 1rem;
   @media (max-width: 991px) {
@@ -43,7 +43,7 @@ img {
   }
 }
 
-.nav-link {
+.primary-nav .nav-link {
   color: #ffffff;
   font-size: 1.4rem;
 
@@ -53,7 +53,7 @@ img {
   }
 }
 
-.navbar-toggler {
+.primary-nav .navbar-toggler {
   background-color: $lab-blue;
 }
 
@@ -110,4 +110,49 @@ ul.publications {
 .journal-name {
   font-style: italic;
   font-size: 0.9rem;
+}
+
+
+.project-nav {
+  li {
+    margin-right: 1rem;
+  }
+
+  .nav-link {
+    background-color: #f0f0f0;
+  }
+}
+
+.contact-avatar {
+  box-shadow: 0px 0px 4px;
+  width: 7rem;
+  margin: 0.6rem;
+}
+
+.contact-card {
+  background-color: #f0f0f0;
+  --bs-card-border-color: 0;
+  --bs-card-border-radius: 0;
+  --bs-card-box-shadow: ;
+  --bs-card-inner-border-radius: 0;
+
+  .card-text a {
+    text-decoration: none;
+  }
+}
+
+.team-card {
+  --bs-card-border-color: 0;
+  --bs-card-border-radius: 0;
+  --bs-card-box-shadow: ;
+  --bs-card-inner-border-radius: 0;
+
+  border-bottom: 0.15rem solid #6ebbd5;
+
+  .card-title {
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    font-size: 1rem;
+    height: 3.5rem;
+  }
 }
