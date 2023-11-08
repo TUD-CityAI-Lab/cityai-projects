@@ -141,6 +141,11 @@ ul.publications {
   }
 }
 
+.overlay-darken {
+  background-color: #222222;
+  opacity: 70%;
+}
+
 .project-cards {
   .card {
     --bs-card-inner-border-radius: 0;
