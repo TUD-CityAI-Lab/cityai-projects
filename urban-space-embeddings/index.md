@@ -3,6 +3,10 @@ layout: default
 title: "Urban embeddings"
 ---
 
+<ul class="nav project-nav col-12 col-lg-auto me-lg-auto mb-2">
+  <li><a href="#contact" class="nav-link px-2">Contact</a></li>
+</ul>
+
 # Understanding the relationships between urban space, perceptions and behaviours using urban embeddings
 
 <br>
@@ -29,3 +33,27 @@ Our subsequent studies aim to develop structural causal models that identify cau
 <img src="{{ 'urban-space-embeddings/assets/general_structure.png' | relative_url }}" alt="Urban data" width="80%">
 </center>
 
+<br>
+
+### Contact
+{: #contact}
+
+<div class="card contact-card" style="max-width: 450px;">
+  <div class="row g-0">
+    <div class="col-sm-3">
+      <img src="{{ 'assets/images/team/francisco.webp' | relative_url }}" class="contact-avatar">
+    </div>
+    <div class="col-sm-9 gx-3">
+      <div class="card-body">
+        <h5 class="card-title">Francisco Garrido Valenzuela</h5>
+        <p class="card-text">
+          PhD Candidate<br>
+          <a href="mailto:F.GarridoV@tudelft.nl">F.GarridoV@tudelft.nl</a><br>
+          <a href="https://www.linkedin.com/in/francisco-garrido-valenzuela-8293a7b2/">
+            <img style="color: blue" src="{{ 'assets/images/linkedin.svg' | relative_url }}" alt="LinkedIn"/>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

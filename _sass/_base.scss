@@ -2,6 +2,10 @@ body {
   font-family: Arial,sans-serif;
 }
 
+.content-container {
+  text-align: justify;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: 'Roboto Slab';
 }
@@ -87,8 +91,6 @@ img {
   }
 }
 
-
-
 ul.publications {
   list-style-type: none;
   padding: 0;
@@ -111,7 +113,6 @@ ul.publications {
   font-style: italic;
   font-size: 0.9rem;
 }
-
 
 .project-nav {
   li {
@@ -136,8 +137,16 @@ ul.publications {
   --bs-card-box-shadow: ;
   --bs-card-inner-border-radius: 0;
 
-  .card-text a {
+  a {
     text-decoration: none;
+  }
+
+  .card-title a {
+    color: #000000;
+  }
+
+  .card-title a:hover {
+    color: $lab-blue;
   }
 }
 
@@ -159,6 +168,15 @@ ul.publications {
   --bs-card-inner-border-radius: 0;
 
   border-bottom: 0.15rem solid #6ebbd5;
+
+  a {
+    text-decoration: none;
+    color: #212529;
+  }
+
+  a:hover {
+    color: $lab-blue;
+  }
 
   .card-title {
     font-family: 'Roboto Slab';
