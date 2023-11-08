@@ -141,6 +141,12 @@ ul.publications {
   }
 }
 
+.project-cards {
+  .card {
+    --bs-card-inner-border-radius: 0;
+  }
+}
+
 .team-card {
   --bs-card-border-color: 0;
   --bs-card-border-radius: 0;
