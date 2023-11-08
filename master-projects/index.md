@@ -1,0 +1,58 @@
+---
+layout: default
+title: "CityAI Lab: Master thesis projects"
+---
+
+## Master Projects
+Openings and examples of master thesis projects at the CityAI Lab.
+
+### Openings
+
+Slots for supervision of MSc students usually fill up rapidly, so be quick! We are always looking for highly motivated students who want to work with us on the intersections between (travel) behaviour modelling, machine learning, and urban (mobility) analytics.
+
+The ideal student for an MSc project at CityAI Lab has:
+
+- Knowledge of machine learning
+- Knowledge of the domain of application, such as travel behaviour, transport system, etc.
+- Relevant programming skills (e.g. Python, R, Matlab)
+
+The table below provides a general overview of topics that fit with the CityAI Lab. 
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Topics</th>
+      <th>Contact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Utilizing embeddings to study urban spaces</td>
+      <td>Sander van Cranenburgh</td>
+    </tr>
+    <tr>
+      <td>Machine Learning aproaches to study noise pollution and soundscapes</td>
+      <td>Sander van Cranenburgh</td>
+    </tr>
+    <tr>
+      <td>Data-driven analysis of segregation patterns in cities</td>
+      <td>Sander van Cranenburgh</td>
+    </tr>
+  </tbody>
+</table>
+
+If you are interested in starting an MSc project on these topics, please send a brief motivation summary email to Sander, Oded, or Simeon, clarifying:
+
+- What topic you are interested in
+- Intended starting date
+- Your relevant experiences (projects, courses, etc.)
+- Programming skills (languages)
+
+### Examples of ongoing and completed thesis projects
+- Explaining urban space perceptions (Ruben Sangers)
+- Measuring the Evolution of Social Segregation using Public Transport Smart Card Data (Lukas Kolkowski)
+- TULIPS (European Green Deals): Sustainable Inter-modal transport connections, using data driven approaches.
+- [Explainable AI: A Proof of Concept Demonstration in Financial Transaction Fraud Detection using TreeSHAP & Diverse Counterfactuals](http://resolver.tudelft.nl/uuid:cebcca1b-e6e4-47ae-8f28-063d88227c64) (Pratheep Balakrishnan)
+- Blending discrete choice modelling and computer vision (Joris van Eekeren)
+- [Bus Management using Multi-agent Reinforcement Learning](http://resolver.tudelft.nl/uuid:6e6b280e-86a1-42c0-b0cf-fc38c12aec76) (George Weijs).
+- [Automated Disruption Detections in Metro Networks using Smart Card Data](http://resolver.tudelft.nl/uuid:251de9e9-5f83-45c8-a5b7-dc682c2102d7) (Faye Jasperse)
