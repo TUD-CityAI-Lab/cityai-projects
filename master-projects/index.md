@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "CityAI Lab: Master thesis projects"
+title: "CityAI Lab | Master projects"
 ---
 
 ## Master Projects

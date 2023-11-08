@@ -36,10 +36,10 @@ Morbi pellentesque lobortis justo, vel laoreet nisl convallis sit amet. Praesent
 
 <div class="card contact-card" style="max-width: 360px;">
   <div class="row g-0">
-    <div class="col-sm-4">
+    <div class="col-4">
       <img src="{{ 'assets/images/team/lion.webp' | relative_url }}" class="contact-avatar">
     </div>
-    <div class="col-sm-8">
+    <div class="col-8">
       <div class="card-body">
         <h5 class="card-title">Lion Cassens</h5>
         <p class="card-text">

@@ -19,17 +19,19 @@ Future research aims at assessing the dynamics of these patterns in Dutch cities
 
 ![Regionalization]({{ 'segregation/images/segregation-regionalization.png' | relative_url }})
 
+<br>
+
 ### Contact
 {: #contact}
 
 <div class="card contact-card" style="max-width: 360px;">
   <div class="row g-0">
-    <div class="col-sm-4">
+    <div class="col-4">
         <img src="{{ 'assets/images/team/lucas.webp' | relative_url }}" class="contact-avatar">
     </div>
-    <div class="col-sm-8">
+    <div class="col-8">
       <div class="card-body">
-        <h5 class="card-title"><a href="https://www.tudelft.nl/en/ceg/about-faculty/departments/transport-planning/staff/personal-pages/spierenburg-ls">Lucas Spierenburg</a></h5>
+        <h5 class="card-title"><a href="https://lucas-spierenburg.eu/">Lucas Spierenburg</a></h5>
         <p class="card-text">
           PhD Candidate<br>
           <a href="mailto:L.J.Spierenburg@tudelft.nl">L.J.Spierenburg@tudelft.nl</a><br>

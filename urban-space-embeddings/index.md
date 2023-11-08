@@ -43,7 +43,7 @@ Our subsequent studies aim to develop structural causal models that identify cau
     <div class="col-sm-3">
       <img src="{{ 'assets/images/team/francisco.webp' | relative_url }}" class="contact-avatar">
     </div>
-    <div class="col-sm-9 gx-3">
+    <div class="col-sm-9 gx-sm-3">
       <div class="card-body">
         <h5 class="card-title">Francisco Garrido Valenzuela</h5>
         <p class="card-text">
