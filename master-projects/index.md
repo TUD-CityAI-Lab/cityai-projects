@@ -4,58 +4,62 @@ title: "CityAI Lab | Master projects"
 ---
 
 ## Master Projects
-Here, TUD students can find opportunities for doing their master thesis project at the CityAI Lab.
+At this page, TUD students can find opportunities for doing their master thesis project at our lab. We are always looking for **highly motivated** students who want to work with us on the ongoing research directions. Note that slots for the supervision usually fill up quickly, especially in Q3.
 
-### Openings
+### Opportunities
 
-Slots for the supervision of MSc students usually fill up rapidly (especially in Q3). But we are always looking for highly motivated students who want to work with us on the intersections between (travel) behaviour modelling, machine learning, and urban (mobility) analytics.
 
-The ideal student for an MSc project at CityAI Lab has:
 
-- Knowledge of machine learning
-- Knowledge of the domain of application, such as travel behaviour, transport system, etc.
-- Relevant programming skills (e.g. Python, R, Matlab)
-
-The table below provides an overview of topics that would generally fit within the research at the CityAI Lab. 
+The table below provides with research directions that would generally fit within CityAI Lab, and contact person. 
 
 <table class="table table-striped">
   <thead>
     <tr>
-      <th>Topics</th>
-      <th>Contact</th>
+      <th>Research direction</th>
+      <th>Contact person</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Bridging the gap between discrete choice modelling and machine Learning for choice behaviour analysis</td>
-      <td>Sander van Cranenburgh</td>
+      <td>Bridging the gap between discrete choice modelling and machine learning for choice behaviour analysis</td>
+      <td><a href="mailto:s.vancranenburgh@tudelft.nl">Sander van Cranenburgh</a></td>
     </tr>
     <tr>
       <td> XXX </td>
-      <td>Oded Cats</td>
+      <td><a href="mailto:o.cats@tudelft.nl">Oded Cats</a></td>
     </tr>
     <tr>
       <td> XXX </td>
-      <td>Simeon Calvert</td>
+      <td><a href="mailto:s.c.calvert@tudelft.nl">Simeon Calvert</a></td>
+    </tr>
+    <tr>
+      <td> XXX </td>
+      <td><a href="mailto:m.kroesen@tudelft.nl">Maarten Kroesen</a></td>
     </tr>
     <tr>
       <td>Utilising embeddings to study the perception of urban environments</td>
-      <td>Francisco Garrido-Valenzuela</td>
+      <td><a href="mailto:F.GarridoV@tudelft.nl">Francisco Garrido-Valenzuela</a></td>
     </tr>
     <tr>
       <td>Machine learning approaches to study noise pollution and soundscapes </td>
-      <td>Lion Cassens</td>
+      <td><a href="mailto:l.cassens@tudelft.nl">Lion Cassens</a></td>
     </tr>
     <tr>
       <td>Data-driven analysis of segregation patterns in cities</td>
-      <td>Lucas Spierenburg</td>
+      <td><a href="mailto:l.j.spierenburg@tudelft.nl">Lucas Spierenburg</a></td>
     </tr>
     <tr>
       <td>Vehicle spacing and driving behaviour in the urban traffic environment</td>
-      <td>Yiru Jiao</td>
+      <td><a href="mailto:Y.jiao-1@tudelft.nl">Yiru Jiao</a></td>
     </tr>
   </tbody>
 </table>
+
+The ideal student for an MSc project at CityAI Lab has the following profile:
+
+- Knowledge of machine learning
+- Knowledge of the domain of application, such as travel behaviour, transport system, urban systems, etc.
+- Relevant programming skills (e.g. Python, R, Matlab)
 
 Interested? Please send us an email with an introduction and brief motivation, clarifying:
 
