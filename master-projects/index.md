@@ -4,11 +4,11 @@ title: "CityAI Lab | Master projects"
 ---
 
 ## Master Projects
-Openings and examples of master thesis projects at the CityAI Lab.
+Here, TUD students can find opportunities for doing their master thesis project at the CityAI Lab.
 
 ### Openings
 
-Slots for supervision of MSc students usually fill up rapidly, so be quick! We are always looking for highly motivated students who want to work with us on the intersections between (travel) behaviour modelling, machine learning, and urban (mobility) analytics.
+Slots for the supervision of MSc students usually fill up rapidly (especially in Q3). But we are always looking for highly motivated students who want to work with us on the intersections between (travel) behaviour modelling, machine learning, and urban (mobility) analytics.
 
 The ideal student for an MSc project at CityAI Lab has:
 
@@ -16,7 +16,7 @@ The ideal student for an MSc project at CityAI Lab has:
 - Knowledge of the domain of application, such as travel behaviour, transport system, etc.
 - Relevant programming skills (e.g. Python, R, Matlab)
 
-The table below provides a general overview of topics that fit with the CityAI Lab. 
+The table below provides an overview of topics that would generally fit within the research at the CityAI Lab. 
 
 <table class="table table-striped">
   <thead>
@@ -31,6 +31,14 @@ The table below provides a general overview of topics that fit with the CityAI L
       <td>Sander van Cranenburgh</td>
     </tr>
     <tr>
+      <td> XXX </td>
+      <td>Oded Cats</td>
+    </tr>
+    <tr>
+      <td> XXX </td>
+      <td>Simeon Calvert</td>
+    </tr>
+    <tr>
       <td>Utilising embeddings to study the perception of urban environments</td>
       <td>Francisco Garrido-Valenzuela</td>
     </tr>
@@ -42,10 +50,14 @@ The table below provides a general overview of topics that fit with the CityAI L
       <td>Data-driven analysis of segregation patterns in cities</td>
       <td>Lucas Spierenburg</td>
     </tr>
+    <tr>
+      <td>Vehicle spacing and driving behaviour in the urban traffic environment</td>
+      <td>Yiru Jiao</td>
+    </tr>
   </tbody>
 </table>
 
-If you are interested in starting an MSc project on these topics, please send a brief motivation summary email to Sander, Oded, or Simeon, clarifying:
+Interested? Please send us an email with an introduction and brief motivation, clarifying:
 
 - What topic you are interested in
 - Intended starting date
