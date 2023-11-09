@@ -27,16 +27,20 @@ The table below provides a general overview of topics that fit with the CityAI L
   </thead>
   <tbody>
     <tr>
-      <td>Utilizing embeddings to study urban spaces</td>
+      <td>Bridging the gap between discrete choice modelling and machine Learning for choice behaviour analysis</td>
       <td>Sander van Cranenburgh</td>
     </tr>
     <tr>
-      <td>Machine Learning aproaches to study noise pollution and soundscapes</td>
-      <td>Sander van Cranenburgh</td>
+      <td>Utilising embeddings to study the perception of urban environments</td>
+      <td>Francisco Garrido-Valenzuela</td>
+    </tr>
+    <tr>
+      <td>Machine learning approaches to study noise pollution and soundscapes </td>
+      <td>Lion Cassens</td>
     </tr>
     <tr>
       <td>Data-driven analysis of segregation patterns in cities</td>
-      <td>Sander van Cranenburgh</td>
+      <td>Lucas Spierenburg</td>
     </tr>
   </tbody>
 </table>
