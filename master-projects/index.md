@@ -59,9 +59,15 @@ The table below provides with research directions that would generally fit withi
       <td><li>Vehicle spacing and driving behaviour in the urban traffic environment</li></td>
       <td><a href="mailto:Y.jiao-1@tudelft.nl">Yiru Jiao</a></td>
     </tr>
+    <tr>
+      <td><li>Understanding the choice modeller's decisions and their impacts on modelling outcomes</li></td>
+      <td><a href="mailto:G.N.Nova@tudelft.nl">Gabriel Nova</a></td>
+    </tr>
   </tbody>
 </table>
 
+
+<br><br>
 The ideal student for an MSc project at CityAI Lab has the following profile:
 
 - Knowledge of machine learning
@@ -75,6 +81,7 @@ Interested? Please send us an email with an introduction and brief motivation, c
 - Your relevant experiences (projects, courses, etc.)
 - Programming skills (languages)
 
+<br>
 ### Examples of ongoing and completed thesis projects
 - Explaining urban space perceptions (Ruben Sangers)
 - Measuring the Evolution of Social Segregation using Public Transport Smart Card Data (Lukas Kolkowski)
