@@ -21,35 +21,42 @@ The table below provides with research directions that would generally fit withi
   </thead>
   <tbody>
     <tr>
-      <td>Bridging the gap between discrete choice modelling and machine learning for choice behaviour analysis</td>
+      <td>
+      <li>Bridging the gap between discrete choice and machine learning models for choice behaviour analysis, see e.g. <a href="https://www.sciencedirect.com/science/article/pii/S1755534521000725">this paper</a> </li>
+      <li>Extending discrete choice models and theory with images, see e.g. <a href="https://arxiv.org/abs/2308.08276">this paper</a></li>
+      <li>Mapping liveability in the city (opportunities to work with/at municipality of Rotterdam)</li>
+      </td>
       <td><a href="mailto:s.vancranenburgh@tudelft.nl">Sander van Cranenburgh</a></td>
     </tr>
     <tr>
-      <td> XXX </td>
+      <td><li>Modelling multi-modal passenger transport networks by combining advancements from behavioral sciences, operations research and complex network theory</li></td>
       <td><a href="mailto:o.cats@tudelft.nl">Oded Cats</a></td>
     </tr>
     <tr>
-      <td> XXX </td>
+      <td><li>Modelling traffic behaviour forecast the impacts of automated driving, connected traffic and external disturbances on traffic flows</li></td>
       <td><a href="mailto:s.c.calvert@tudelft.nl">Simeon Calvert</a></td>
     </tr>
     <tr>
-      <td> XXX </td>
+      <td>
+      <li>Dynamics of travel behavior using panel data analysis techniques</li>
+      <li>Using panel models to shed light on the factors driving changes in travel behavior patterns and provide valuable insights for designing policies that encourage sustainable transportation choices </li>
+      </td>
       <td><a href="mailto:m.kroesen@tudelft.nl">Maarten Kroesen</a></td>
     </tr>
     <tr>
-      <td>Utilising embeddings to study the perception of urban environments</td>
+      <td><li>Utilising image embeddings to study human perception of and behaviour in the urban environment</li></td>
       <td><a href="mailto:F.GarridoV@tudelft.nl">Francisco Garrido-Valenzuela</a></td>
     </tr>
     <tr>
-      <td>Machine learning approaches to study noise pollution and soundscapes </td>
+      <td><li>Machine learning approaches to study noise pollution and soundscapes</li></td>
       <td><a href="mailto:l.cassens@tudelft.nl">Lion Cassens</a></td>
     </tr>
     <tr>
-      <td>Data-driven analysis of segregation patterns in cities</td>
+      <td><li>Data-driven analysis of segregation patterns in cities</li></td>
       <td><a href="mailto:l.j.spierenburg@tudelft.nl">Lucas Spierenburg</a></td>
     </tr>
     <tr>
-      <td>Vehicle spacing and driving behaviour in the urban traffic environment</td>
+      <td><li>Vehicle spacing and driving behaviour in the urban traffic environment</li></td>
       <td><a href="mailto:Y.jiao-1@tudelft.nl">Yiru Jiao</a></td>
     </tr>
   </tbody>
