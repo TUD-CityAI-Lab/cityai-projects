@@ -48,7 +48,10 @@ The table below provides with research directions that would generally fit withi
       <td><a href="mailto:F.GarridoV@tudelft.nl">Francisco Garrido-Valenzuela</a></td>
     </tr>
     <tr>
-      <td><li>Machine learning approaches to study noise pollution and soundscapes</li></td>
+      <td>
+        <li>Machine learning approaches to study noise pollution and soundscapes</li>
+        <li>Perception-focused soundscape mapping with noise sensors</li>
+      </td>
       <td><a href="mailto:l.cassens@tudelft.nl">Lion Cassens</a></td>
     </tr>
     <tr>
