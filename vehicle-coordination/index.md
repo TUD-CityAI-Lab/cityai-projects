@@ -138,6 +138,10 @@ To answer this question requires high-quality and high-fidelity data. Thanks to 
   </div>
 </div>
 
+<br>
+
+## Contact
+{: #contact}
 
 <div class="card contact-card" style="max-width: 360px;">
   <div class="row g-0">
