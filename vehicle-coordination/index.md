@@ -16,12 +16,9 @@ title: "Vehicle coordination in urban traffic: a perspective from human behaviou
 
 <div class="row">
   <div class="col-sm-6">
-    <div style="text-align: center;">
-      <video autoplay muted style="width: 73%;">
-        <source src="public/driver-space-inference-vis.mp4" type="video/mp4">
-        Your browser does not support this video.
-      </video>
-    </div>
+    <p style="text-align: center;">
+      <img style="width: 78%;" src="public/driver-space-inference-vis.gif"/>
+    </p>
 
     <p>
       🤔 Quantifying space and time use of drivers is a foundation of traffic research. It is straightforward to measure space use of vehicles when they are following each other, as 1D spacing. But if thinking about vehicles interacting with each other two-dimensionally, such as at urban intersections, how do we measure the 2D spacing between them?
@@ -33,10 +30,6 @@ title: "Vehicle coordination in urban traffic: a perspective from human behaviou
     
     <p>
     💡 As a particularly interesting finding, our measurement of 2D spacing results in a relation that is visually and conceptually similar to the Fundamental Diagrams in car-following traffic theory. We term it iFD (interaction Fundamental Diagram) as it reflects the relationship between interaction density and interaction rate at varying relative speeds of vehicles.
-    </p>
-
-    <p>
-      <a href="https://doi.org/10.1016/j.trc.2023.104289">Paper Link</a> | <a href="https://github.com/Yiru-Jiao/DriverSpaceInference">GitHub Repository</a>
     </p>
   </div>
 
@@ -51,6 +44,10 @@ title: "Vehicle coordination in urban traffic: a perspective from human behaviou
     <p>
       <img src="public/sp1_studystructure.png"/>
       <b>Proposed framework to infer average 2D vehicle spacing from trajectory data.</b> (a) Coordinate transformation of vehicle pairs in the figure above. (b) Accumulated data samples of transformed vehicle pairs. (c) Data samples that are conditioned by relative speeds, where the hollows are driver space. (d) Spacing inference from the conditioned data samples.
+    </p>
+
+    <p>
+      <a href="https://doi.org/10.1016/j.trc.2023.104289">Paper Link</a> |  <a href="https://github.com/Yiru-Jiao/DriverSpaceInference">GitHub Repository</a>
     </p>
   </div>
 
