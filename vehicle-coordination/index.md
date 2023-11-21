@@ -16,7 +16,13 @@ title: "Vehicle coordination in urban traffic: a perspective from human behaviou
 
 <div class="row">
   <div class="col-sm-6">
-    
+    <div style="text-align: center;">
+      <video autoplay muted style="width: 73%;">
+        <source src="public/driver-space-inference-vis.mp4" type="video/mp4">
+        Your browser does not support this video.
+      </video>
+    </div>
+
     <p>
       🤔 Quantifying space and time use of drivers is a foundation of traffic research. It is straightforward to measure space use of vehicles when they are following each other, as 1D spacing. But if thinking about vehicles interacting with each other two-dimensionally, such as at urban intersections, how do we measure the 2D spacing between them?
     </p>
@@ -30,8 +36,7 @@ title: "Vehicle coordination in urban traffic: a perspective from human behaviou
     </p>
 
     <p>
-      <a href="https://doi.org/10.1016/j.trc.2023.104289">Paper Link</a><br>
-      <a href="https://github.com/Yiru-Jiao/DriverSpaceInference">GitHub Repository</a>
+      <a href="https://doi.org/10.1016/j.trc.2023.104289">Paper Link</a> | <a href="https://github.com/Yiru-Jiao/DriverSpaceInference">GitHub Repository</a>
     </p>
   </div>
 
