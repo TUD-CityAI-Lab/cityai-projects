@@ -41,11 +41,13 @@ Our subsequent studies aim to develop structural causal models that identify cau
 <div class="card contact-card" style="max-width: 450px;">
   <div class="row g-0">
     <div class="col-sm-3">
-      <img src="{{ 'assets/images/team/francisco.webp' | relative_url }}" class="contact-avatar">
+      <a href="https://www.tudelft.nl/en/staff/f.garridov/">
+        <img src="{{ 'assets/images/team/francisco.webp' | relative_url }}" class="contact-avatar">
+      </a>
     </div>
     <div class="col-sm-9 gx-sm-3">
       <div class="card-body">
-        <h5 class="card-title">Francisco Garrido Valenzuela</h5>
+        <h5 class="card-title"><a href="https://www.tudelft.nl/en/staff/f.garridov/">Francisco Garrido Valenzuela</a></h5>
         <p class="card-text">
           PhD Candidate<br>
           <a href="mailto:F.GarridoV@tudelft.nl">F.GarridoV@tudelft.nl</a><br>

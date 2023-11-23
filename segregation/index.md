@@ -29,7 +29,9 @@ Future research aims at assessing how urban developments, such as e.g. housing a
 <div class="card contact-card" style="max-width: 360px;">
   <div class="row g-0">
     <div class="col-4">
-        <img src="{{ 'assets/images/team/lucas.webp' | relative_url }}" class="contact-avatar">
+        <a href="https://lucas-spierenburg.eu/">
+          <img src="{{ 'assets/images/team/lucas.webp' | relative_url }}" class="contact-avatar">
+        </a>
     </div>
     <div class="col-8">
       <div class="card-body">

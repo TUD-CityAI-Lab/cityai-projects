@@ -32,7 +32,9 @@ This project aims to develop models of moral choice behaviour by combining choic
 <div class="card contact-card" style="max-width: 360px;">
   <div class="row g-0">
     <div class="col-4">
-      <img src="{{ 'assets/images/team/nicholas.webp' | relative_url }}" class="contact-avatar">
+      <a href="https://www.eur.nl/en/people/nicholas-smeele">
+        <img src="{{ 'assets/images/team/nicholas.webp' | relative_url }}" class="contact-avatar">
+        </a>
     </div>
     <div class="col-8">
       <div class="card-body">

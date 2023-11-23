@@ -41,7 +41,9 @@ title: Artificial intelligence to comprehend, automate and assist choice modelle
 <div class="card contact-card" style="max-width: 360px;">
   <div class="row g-0">
     <div class="col-4">
-        <img src="{{ 'assets/images/team/gabriel.webp' | relative_url }}" class="contact-avatar">
+        <a href="https://www.tudelft.nl/en/staff/g.nova/?">
+          <img src="{{ 'assets/images/team/gabriel.webp' | relative_url }}" class="contact-avatar" >
+        </a>
     </div>
     <div class="col-8">
       <div class="card-body">

@@ -21,7 +21,9 @@ The goal of this project is to develop techniques for holistic noise maps, which
 <div class="card contact-card" style="max-width: 360px;">
   <div class="row g-0">
     <div class="col-4">
+      <a href="https://www.tudelft.nl/en/staff/l.cassens/">
         <img src="{{ 'assets/images/team/lion.webp' | relative_url }}" class="contact-avatar">
+      </a>
     </div>
     <div class="col-8">
       <div class="card-body">

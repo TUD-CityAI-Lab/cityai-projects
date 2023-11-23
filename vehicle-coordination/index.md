@@ -148,7 +148,9 @@ To answer this question requires high-quality and high-fidelity data. Thanks to 
 <div class="card contact-card" style="max-width: 360px;">
   <div class="row g-0">
     <div class="col-4">
+      <a href="https://www.tudelft.nl/en/ceg/about-faculty/departments/transport-planning/staff/personal-pages/y-yiru-jiao">
         <img src="{{ 'assets/images/team/yiru.webp' | relative_url }}" class="contact-avatar">
+      </a>
     </div>
     <div class="col-8">
       <div class="card-body">
