@@ -9,4 +9,6 @@ gem "webrick", "~> 1.8"
 
 gem "jekyll-autoprefixer", "~> 1.0"
 
+gem "jekyll-sitemap", "~> 1.4"
+
 gem "execjs", "= 2.7"

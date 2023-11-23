@@ -1,5 +1,6 @@
 plugins:
   - jekyll-autoprefixer
+  - jekyll-sitemap
 
 autoprefixer:
   browsers:
