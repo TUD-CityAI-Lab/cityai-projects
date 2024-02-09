@@ -59,7 +59,7 @@ The table below provides with research directions that would generally fit withi
       <td><a href="mailto:l.j.spierenburg@tudelft.nl">Lucas Spierenburg</a></td>
     </tr>
     <tr>
-      <td><li>Vehicle spacing and driving behaviour in the urban traffic environment</li></td>
+      <td><li>Driving behaviour and interaction in the urban traffic environment</li></td>
       <td><a href="mailto:Y.jiao-1@tudelft.nl">Yiru Jiao</a></td>
     </tr>
     <tr>
