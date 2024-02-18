@@ -5,11 +5,14 @@ title: "Vehicle coordination in urban traffic: a perspective from human behaviou
 
 
 <ul class="nav project-nav col-12 col-lg-auto me-lg-auto mb-2">
-  <li><a href="#two-dimensional-spacing" class="nav-link px-2">Two-Dimensional Spacing</a></li>
+  <li><a href="#two-dimensional-spacing" class="nav-link px-2">2D Vehicle Spacing</a></li>
   <li><a href="#cooperative-interaction" class="nav-link px-2">Cooperative Vehicle Interaction</a></li>
+  <li><a href="#av-hv-car-following" class="nav-link px-2">Reduced Headway after AVs</a></li>
   <li><a href="#datasets" class="nav-link px-2">Datasets</a></li>
   <li><a href="#contact" class="nav-link px-2">Contact</a></li>
 </ul>
+
+---
 
 ## Inferring vehicle spacing in urban traffic from trajectory data
 {: #two-dimensional-spacing}
@@ -90,7 +93,10 @@ With Proximity Resistance (PR), which measures two-dimensional spacing between v
 </div>
 
 ---
+## Beyond Behaviour Change: Investigating Alternative Explanations for Shorter Time Headways When Human Drivers Follow Automated Vehicles
+{: #av-hv-car-following}
 
+---
 ## Datasets for studying driving reaction difference between human-driven vehicles (HVs) and autonomous vehicles (AVs)
 {: #datasets}
 
