@@ -3,12 +3,16 @@ layout: default
 title: "CityAI Lab | Master projects"
 ---
 
+<ul class="nav project-nav col-12 col-lg-auto me-lg-auto mb-2">
+  <li><a href="#opportunities" class="nav-link px-2">Opportunities</a></li>
+  <li><a href="#ongoing-projects" class="nav-link px-2">Ongoing projects</a></li>
+</ul>
+
 ## Master Projects
 At this page, TUD students can find opportunities for doing their master thesis project at our lab. We are always looking for **highly motivated** students who want to work with us on the ongoing research directions. Note that slots for the supervision usually fill up quickly, especially in Q3.
 
 ### Opportunities
-
-
+{: #opportunities}
 
 The table below provides with research directions that would generally fit within CityAI Lab, and contact person. 
 
@@ -84,12 +88,24 @@ Interested? Please send us an email with an introduction and brief motivation, c
 - Your relevant experiences (projects, courses, etc.)
 - Programming skills (languages)
 
-<br>
-### Examples of ongoing and completed thesis projects
-- Explaining urban space perceptions (Ruben Sangers)
-- Measuring the Evolution of Social Segregation using Public Transport Smart Card Data (Lukas Kolkowski)
-- TULIPS (European Green Deals): Sustainable Inter-modal transport connections, using data driven approaches.
-- [Explainable AI: A Proof of Concept Demonstration in Financial Transaction Fraud Detection using TreeSHAP & Diverse Counterfactuals](http://resolver.tudelft.nl/uuid:cebcca1b-e6e4-47ae-8f28-063d88227c64) (Pratheep Balakrishnan)
-- Blending discrete choice modelling and computer vision (Joris van Eekeren)
-- [Bus Management using Multi-agent Reinforcement Learning](http://resolver.tudelft.nl/uuid:6e6b280e-86a1-42c0-b0cf-fc38c12aec76) (George Weijs).
-- [Automated Disruption Detections in Metro Networks using Smart Card Data](http://resolver.tudelft.nl/uuid:251de9e9-5f83-45c8-a5b7-dc682c2102d7) (Faye Jasperse)
+<hr>
+
+### Ongoing and completed projects
+{: #ongoing-projects}
+
+Below you can find some highlighted projects.
+
+{% include_relative _project-berkers.md %}
+{% include_relative _project-ralon.md %}
+{% include_relative _project-terra.md %}
+{% include_relative _project-yan.md %}
+{% include_relative _project-bakker.md %}
+
+### Other thesis projects
+ - Explaining urban space perceptions (Ruben Sangers)
+ - Measuring the Evolution of Social Segregation using Public Transport Smart Card Data (Lukas Kolkowski)
+ - TULIPS (European Green Deals): Sustainable Inter-modal transport connections, using data driven approaches.
+ - [Explainable AI: A Proof of Concept Demonstration in Financial Transaction Fraud Detection using TreeSHAP & Diverse Counterfactuals](http://resolver.tudelft.nl/uuid:cebcca1b-e6e4-47ae-8f28-063d88227c64) (Pratheep Balakrishnan)
+ - Blending discrete choice modelling and computer vision (Joris van Eekeren)
+ - [Bus Management using Multi-agent Reinforcement Learning](http://resolver.tudelft.nl/uuid:6e6b280e-86a1-42c0-b0cf-fc38c12aec76) (George Weijs).
+ - [Automated Disruption Detections in Metro Networks using Smart Card Data](http://resolver.tudelft.nl/uuid:251de9e9-5f83-45c8-a5b7-dc682c2102d7) (Faye Jasperse)
