@@ -2,7 +2,7 @@
   <div class="col-sm-8">
     <h4 id="bastiaan-bakker">Unveiling preferred liveability in Rotterdam, exploring XAI techniques for discrete choice computer vision models</h4>
     <p>
-      Keeping cities liveable is increasingly a challenge with increasing urbanisation. While most of the literature on liveability concerns perceived liveability - they study what factors, such as physical, social, and economic, impact the liveability perceptions - I look at "preferred liveability". More specifically, I aim to provide explanations for predictions by a recently developed computer vision discrete choice model. This model predicts utility-based liveability levels, taking street-view images as inputs. To achieve this, I will assess the efficacy of eXplainable Artificial Intelligence (XAI) techniques. Also, I will investigate how the combination of computer vision discrete choice models and XAI can effectively be used by municipalities to support policy-making.
+      Keeping cities liveable is increasingly a challenge with increasing urbanisation. While most of the literature on liveability concerns perceived liveability - they study what factors, such as physical, social, and economic, impact the liveability perceptions - I look at "preferred liveability". More specifically, I aim to provide explanations for predictions by a recently developed computer vision discrete choice model. This model produces utility-based liveability levels, taking street-view images as inputs. To achieve this, I will assess the efficacy of eXplainable Artificial Intelligence (XAI) techniques. Also, I will investigate how the combination of computer vision discrete choice models and XAI can effectively be used by municipalities to support policy-making.
     </p>
   </div>
 
