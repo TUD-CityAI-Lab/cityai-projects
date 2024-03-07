@@ -4,32 +4,28 @@ title: "CityAI Lab | Master projects"
 ---
 
 <ul class="nav project-nav col-12 col-lg-auto me-lg-auto mb-2">
-  <li><a href="#opportunities" class="nav-link px-2">Opportunities</a></li>
-  <li><a href="#ongoing-projects" class="nav-link px-2">Ongoing projects</a></li>
-  <li><a href="#finished-projects" class="nav-link px-2">Ongoing projects</a></li>
+  <li><a href="#opportunities" class="nav-link px-2">Thesis opportunities</a></li>
+  <li><a href="#ongoing-projects" class="nav-link px-2">Ongoing thesis projects</a></li>
+  <li><a href="#finished-projects" class="nav-link px-2">Finished thesis projects</a></li>
 </ul>
 
-## Master Projects
-On this page, TUD students can find opportunities for doing their master thesis project at our lab. We are always looking for **highly motivated** students who want to work with us on the ongoing research directions. Note that slots for supervision usually fill up quickly, especially in Q3.
+### Thesis opportunities
+{: #opportunities}
 
+On this page, TUD students can find opportunities for doing their master thesis project at our lab. We are always looking for **highly motivated** students who want to work with us on the ongoing research directions. Note that slots for supervision usually fill up quickly, especially in Q3.
 <br>
 The ideal student for an MSc project at CityAI Lab has the following profile:
-
 - Knowledge of machine learning
 - Knowledge of the domain of application, such as travel behaviour, transport systems, urban systems, etc.
 - Relevant programming skills (e.g. Python, R, Matlab)
 
 **Interested?** Please send us an email with an introduction and brief motivation, clarifying:
-
 - What topic you are interested in
 - Intended starting date
 - Your relevant experiences (projects, courses, etc.)
 - Programming skills (languages)
-  
-### Opportunities
-{: #opportunities}
 
-The table below provides research directions that would fit within CityAI Lab and a contact person. 
+The table below provides research directions that would fit within CityAI Lab and the person to get in contact with. 
 
 <table class="table table-striped">
   <thead>
@@ -90,7 +86,7 @@ The table below provides research directions that would fit within CityAI Lab an
 
 <hr>
 
-### Ongoing MSc thesis projects
+### Ongoing thesis projects
 {: #ongoing-projects}
 
 {% include_relative _project-bakker.md %}
@@ -101,7 +97,7 @@ The table below provides research directions that would fit within CityAI Lab an
 
 <hr>
 
-### Finished MSc thesis projects
+### Finished thesis projects
 {: #finished-projects}
 
  - Explaining urban space perceptions (Ruben Sangers)
