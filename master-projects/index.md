@@ -43,12 +43,12 @@ The table below provides research directions that would fit within CityAI Lab an
       <td>
       <li>Bridging the gap between discrete choice and machine learning models for choice behaviour analysis, see e.g. <a href="https://www.sciencedirect.com/science/article/pii/S1755534521000725">this paper</a> </li>
       <li>Extending discrete choice models and theory with images, see e.g. <a href="https://arxiv.org/abs/2308.08276">this paper</a></li>
-      <li>Mapping liveability in the city (opportunities to work with/at municipality of Rotterdam)</li>
+      <li>Mapping liveability in the city (opportunities to work with/at the municipality of Rotterdam)</li>
       </td>
       <td><a href="mailto:s.vancranenburgh@tudelft.nl">Sander van Cranenburgh</a></td>
     </tr>
     <tr>
-      <td><li>Modelling multi-modal passenger transport networks by combining advancements from behavioral sciences, operations research and complex network theory</li></td>
+      <td><li>Modelling multi-modal passenger transport networks by combining advancements from behavioural sciences, operations research and complex network theory</li></td>
       <td><a href="mailto:o.cats@tudelft.nl">Oded Cats</a></td>
     </tr>
     <tr>
@@ -57,8 +57,8 @@ The table below provides research directions that would fit within CityAI Lab an
     </tr>
     <tr>
       <td>
-      <li>Dynamics of travel behavior using panel data analysis techniques</li>
-      <li>Using panel models to shed light on the factors driving changes in travel behavior patterns and provide valuable insights for designing policies that encourage sustainable transportation choices </li>
+      <li>Dynamics of travel behaviour using panel data analysis techniques</li>
+      <li>Using panel models to shed light on the factors driving changes in travel behaviour patterns and provide valuable insights for designing policies that encourage sustainable transportation choices </li>
       </td>
       <td><a href="mailto:m.kroesen@tudelft.nl">Maarten Kroesen</a></td>
     </tr>
@@ -106,7 +106,7 @@ The table below provides research directions that would fit within CityAI Lab an
 
  - Explaining urban space perceptions (Ruben Sangers)
  - Measuring the Evolution of Social Segregation using Public Transport Smart Card Data (Lukas Kolkowski)
- - TULIPS (European Green Deals): Sustainable Inter-modal transport connections, using data driven approaches.
+ - TULIPS (European Green Deals): Sustainable Inter-modal transport connections using data-driven approaches.
  - [Explainable AI: A Proof of Concept Demonstration in Financial Transaction Fraud Detection using TreeSHAP & Diverse Counterfactuals](http://resolver.tudelft.nl/uuid:cebcca1b-e6e4-47ae-8f28-063d88227c64) (Pratheep Balakrishnan)
  - Blending discrete choice modelling and computer vision (Joris van Eekeren)
  - [Bus Management using Multi-agent Reinforcement Learning](http://resolver.tudelft.nl/uuid:6e6b280e-86a1-42c0-b0cf-fc38c12aec76) (George Weijs).
