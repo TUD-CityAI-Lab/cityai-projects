@@ -6,6 +6,7 @@ title: "CityAI Lab | Master projects"
 <ul class="nav project-nav col-12 col-lg-auto me-lg-auto mb-2">
   <li><a href="#opportunities" class="nav-link px-2">Opportunities</a></li>
   <li><a href="#ongoing-projects" class="nav-link px-2">Ongoing projects</a></li>
+  <li><a href="#finished-projects" class="nav-link px-2">Ongoing projects</a></li>
 </ul>
 
 ## Master Projects
@@ -89,10 +90,8 @@ The table below provides research directions that would fit within CityAI Lab an
 
 <hr>
 
-### Ongoing and completed projects
+### Ongoing MSc thesis projects
 {: #ongoing-projects}
-
-Below you can find some highlighted projects.
 
 {% include_relative _project-bakker.md %}
 {% include_relative _project-yan.md %}
@@ -100,8 +99,11 @@ Below you can find some highlighted projects.
 {% include_relative _project-ralon.md %}
 {% include_relative _project-terra.md %}
 
-<br>
-### Finished thesis projects
+<hr>
+
+### Finished MSc thesis projects
+{: #finished-projects}
+
  - Explaining urban space perceptions (Ruben Sangers)
  - Measuring the Evolution of Social Segregation using Public Transport Smart Card Data (Lukas Kolkowski)
  - TULIPS (European Green Deals): Sustainable Inter-modal transport connections, using data driven approaches.
