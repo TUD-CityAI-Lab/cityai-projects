@@ -10,7 +10,7 @@ title: "CityAI Lab | Master projects"
 </ul>
 
 
-## MSc thesis projects @ CityAI Lab
+## MSc thesis project @ CityAI Lab
 We are always looking for **highly motivated** TUD students who want to work with us on state-of-the-art research. Note that slots for supervision usually fill up quickly, especially in Q3.
 <br>
 The ideal student for an MSc project at the CityAI Lab has the following profile:
