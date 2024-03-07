@@ -101,7 +101,7 @@ Below you can find some highlighted projects.
 {% include_relative _project-yan.md %}
 {% include_relative _project-bakker.md %}
 
-### Other thesis projects
+### Finished thesis projects
  - Explaining urban space perceptions (Ruben Sangers)
  - Measuring the Evolution of Social Segregation using Public Transport Smart Card Data (Lukas Kolkowski)
  - TULIPS (European Green Deals): Sustainable Inter-modal transport connections, using data driven approaches.
