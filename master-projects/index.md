@@ -114,10 +114,13 @@ The table below provides research directions that would fit within CityAI Lab an
 ### Finished projects
 {: #finished-projects}
 
- - Explaining urban space perceptions (Ruben Sangers)
- - Measuring the Evolution of Social Segregation using Public Transport Smart Card Data (Lukas Kolkowski)
- - TULIPS (European Green Deals): Sustainable Inter-modal transport connections using data-driven approaches.
- - [Explainable AI: A Proof of Concept Demonstration in Financial Transaction Fraud Detection using TreeSHAP & Diverse Counterfactuals](http://resolver.tudelft.nl/uuid:cebcca1b-e6e4-47ae-8f28-063d88227c64) (Pratheep Balakrishnan)
+
+ - [Exploring the enhancement of predictive accuracy for minority classes in travel mode choice models](http://resolver.tudelft.nl/uuid:1df779ae-acf8-44a4-9a3e-714d95669deb) (Aspasia Panagiotidou)
+ - [Explainability of Deep Learning models for Urban Space perception](https://arxiv.org/abs/2208.13555) (Ruben Sangers)
+ - Uncovering taste heterogeneity and non-linearity for urban mode choice using SHAP (Thaddaus Weißhaar)
+ - [Tranquilitree: the Potential of Trees to Mitigate Aircraft Noise Pollution from Schiphol Airport](http://resolver.tudelft.nl/uuid:b2004ab1-044d-4357-bd03-d4388b09332a) (Lanie Preston)
+ - [Measuring the Evolution of Social Segregation using Public Transport Smart Card Data](http://resolver.tudelft.nl/uuid:c4d2d773-b8f0-4be1-b57c-0cdbfb0732fb) (Lukas Kolkowski)
+  - [Explainable AI: A Proof of Concept Demonstration in Financial Transaction Fraud Detection using TreeSHAP & Diverse Counterfactuals](http://resolver.tudelft.nl/uuid:cebcca1b-e6e4-47ae-8f28-063d88227c64) (Pratheep Balakrishnan)
  - Blending discrete choice modelling and computer vision (Joris van Eekeren)
  - [Bus Management using Multi-agent Reinforcement Learning](http://resolver.tudelft.nl/uuid:6e6b280e-86a1-42c0-b0cf-fc38c12aec76) (George Weijs).
  - [Automated Disruption Detections in Metro Networks using Smart Card Data](http://resolver.tudelft.nl/uuid:251de9e9-5f83-45c8-a5b7-dc682c2102d7) (Faye Jasperse)
