@@ -40,7 +40,6 @@ The table below provides research directions that would fit within CityAI Lab an
   <tbody>
     <tr>
       <td>
-      <li>Bridging the gap between discrete choice and machine learning models for choice behaviour analysis, see e.g. <a href="https://www.sciencedirect.com/science/article/pii/S1755534521000725">this paper</a> </li>
       <li>Extending discrete choice models and theory with images, see e.g. <a href="https://arxiv.org/abs/2308.08276">this paper</a></li>
       <li>Mapping liveability in the city (opportunities to work with/at the municipality of Rotterdam)</li>
       </td>
@@ -57,12 +56,15 @@ The table below provides research directions that would fit within CityAI Lab an
     <tr>
       <td>
       <li>Dynamics of travel behaviour using panel data analysis techniques</li>
-      <li>Using panel models to shed light on the factors driving changes in travel behaviour patterns and provide valuable insights for designing policies that encourage sustainable transportation choices </li>
+      <li>Using panel models to shed light on the factors driving changes in (sustainable) travel behaviour patterns</li>
       </td>
       <td><a href="mailto:m.kroesen@tudelft.nl">Maarten Kroesen</a></td>
     </tr>
     <tr>
-      <td><li>Utilising image embeddings to study human perception of and behaviour in the urban environment</li></td>
+      <td>
+        <li>Utilising image embeddings to study human perception of and behaviour in the urban environment</li>
+        <br>
+      </td>
       <td><a href="mailto:F.GarridoV@tudelft.nl">Francisco Garrido-Valenzuela</a></td>
     </tr>
     <tr>
@@ -73,15 +75,24 @@ The table below provides research directions that would fit within CityAI Lab an
       <td><a href="mailto:l.cassens@tudelft.nl">Lion Cassens</a></td>
     </tr>
     <tr>
-      <td><li>Data-driven analysis of segregation patterns in cities</li></td>
+      <td>
+        <li>Data-driven analysis of segregation patterns in cities</li>
+        <br>
+      </td>
       <td><a href="mailto:l.j.spierenburg@tudelft.nl">Lucas Spierenburg</a></td>
     </tr>
     <tr>
-      <td><li>Driving behaviour and interaction in the urban traffic environment</li></td>
+      <td>
+        <li>Driving behaviour and interaction in the urban traffic environment</li>
+        <br>
+      </td>
       <td><a href="mailto:Y.jiao-1@tudelft.nl">Yiru Jiao</a></td>
     </tr>
     <tr>
-      <td><li>Understanding the choice modeller's decisions and their impacts on modelling outcomes</li></td>
+      <td>
+        <li>Understanding the choice modeller's decisions and their impacts on modelling outcomes</li>
+        <br>
+      </td>
       <td><a href="mailto:G.N.Nova@tudelft.nl">Gabriel Nova</a></td>
     </tr>
   </tbody>
