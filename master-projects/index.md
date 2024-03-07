@@ -100,7 +100,7 @@ Below you can find some highlighted projects.
 {% include_relative _project-ralon.md %}
 {% include_relative _project-terra.md %}
 
-
+<br>
 ### Finished thesis projects
  - Explaining urban space perceptions (Ruben Sangers)
  - Measuring the Evolution of Social Segregation using Public Transport Smart Card Data (Lukas Kolkowski)
