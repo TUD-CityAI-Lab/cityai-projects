@@ -117,7 +117,7 @@ The table below provides research directions that would fit within CityAI Lab an
 
  - [Exploring the enhancement of predictive accuracy for minority classes in travel mode choice models](http://resolver.tudelft.nl/uuid:1df779ae-acf8-44a4-9a3e-714d95669deb) (Aspasia Panagiotidou)
  - [Explainability of Deep Learning models for Urban Space perception](https://arxiv.org/abs/2208.13555) (Ruben Sangers)
- - Uncovering taste heterogeneity and non-linearity for urban mode choice using SHAP (Thaddaus Weißhaar)
+ - [Uncovering taste heterogeneity and non-linearity for urban mode choice using SHAP](http://resolver.tudelft.nl/uuid:7597fb82-af7d-4a3a-8e8a-e323c7777634) (Thaddaus Weißhaar)
  - [Tranquilitree: the Potential of Trees to Mitigate Aircraft Noise Pollution from Schiphol Airport](http://resolver.tudelft.nl/uuid:b2004ab1-044d-4357-bd03-d4388b09332a) (Lanie Preston)
  - [Measuring the Evolution of Social Segregation using Public Transport Smart Card Data](http://resolver.tudelft.nl/uuid:c4d2d773-b8f0-4be1-b57c-0cdbfb0732fb) (Lukas Kolkowski)
   - [Explainable AI: A Proof of Concept Demonstration in Financial Transaction Fraud Detection using TreeSHAP & Diverse Counterfactuals](http://resolver.tudelft.nl/uuid:cebcca1b-e6e4-47ae-8f28-063d88227c64) (Pratheep Balakrishnan)
