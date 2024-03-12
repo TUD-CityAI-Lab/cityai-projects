@@ -19,7 +19,7 @@ In the [first study](https://lucas-spierenburg.eu/projects/charact_seg_patterns/
 
 In the [second study](https://lucas-spierenburg.eu/projects/evol_seg_patterns/), we investigate how these patterns have evolved between 2015 and 2020 across Dutch municipalities. We find a notable convergence in segregation patterns. In cities with historically homogeneous social enclaves, such as those located within the Randstad as well as other larger cities, these enclaves are becoming more mixed, while in other cities, they tend to become more homogeneous. Furthermore, the increase in the non-western migration background population correlates with the spatial expansion of social enclaves, rather than an increase in their homogeneity.
 
-![Evolution]({{ 'segregation/images/segregation-evolution.png' | relative_url }})
+![Evolution]({{ 'segregation/images/diff_indicators_maps.png' | relative_url }})
 
 My current study focuses on examining the relationship between residential segregation and social discontent in urban areas. By leveraging data gathered from social media platforms, I employ AI techniques to interpret and map expressions of discontent within cities. I aim to elucidate the extent to which residential segregation contributes to and exacerbates social unrest.
 
