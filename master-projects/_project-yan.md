@@ -11,7 +11,7 @@
       <div class="row g-0">
         <div class="col-sm-3">
           <!-- <a href="https://www.tudelft.nl/en/"> -->
-            <img src="{{ 'assets/images/person.webp' | relative_url }}" class="contact-avatar">
+            <img src="{{ 'master-projects/avatars/lanlan.webp' | relative_url }}" class="contact-avatar">
           <!-- </a> -->
         </div>
         <div class="col-sm-9 gx-sm-3">
