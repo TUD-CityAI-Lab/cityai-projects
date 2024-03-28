@@ -190,3 +190,27 @@ ul.publications {
     height: 3.5rem;
   }
 }
+
+.highlight-item {
+  .highlight-text {
+    text-align: justify;
+
+    @media (min-width: 768px) {
+      border-bottom: 0.15rem solid #6ebbd5;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .highlight-text {
+      margin-bottom: 10pt;
+    }
+    .highlight-image img {
+      width: 100%;
+      border-bottom: 0.15rem solid #6ebbd5;
+    }
+  }
+}
+
+.highlight-item:not(:last-child) {
+  margin-bottom: 20pt;
+}
