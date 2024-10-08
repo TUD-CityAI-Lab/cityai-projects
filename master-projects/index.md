@@ -42,6 +42,7 @@ The table below provides research directions that would fit within CityAI Lab an
       <td>
       <li>Extending discrete choice models and theory with images, see e.g. <a href="https://arxiv.org/abs/2308.08276">this paper</a></li>
       <li>Mapping liveability in the city (opportunities to work with/at the municipality of Rotterdam)</li>
+      <li>Understanding and being able to anticipate TikTok rows in Amsterdam (opportunities to work with/at the <a href="https://www.ams-institute.org/">AMS Institute</a>)</li>
       </td>
       <td><a href="mailto:s.vancranenburgh@tudelft.nl">Sander van Cranenburgh</a></td>
     </tr>
