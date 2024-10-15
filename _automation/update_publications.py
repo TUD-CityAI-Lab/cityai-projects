@@ -42,6 +42,10 @@ documents = sorted(publications, key=lambda x: x.coverDate, reverse=True)
 html = '<!-- AUTO GENERATED FILE, DO NOT EDIT MANUALLY -->\n\n<ul class="publications">'
 for publication in publications:
   print(f'processing: {publication.doi}')
+  
+  if publication.doi is None:
+    print('Skipping entry as DOI is None')
+    continue
 
   works = Works()
   ref = works.doi(publication.doi)
