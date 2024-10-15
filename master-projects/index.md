@@ -105,10 +105,6 @@ The table below provides research directions that would fit within CityAI Lab an
 ### Ongoing projects
 {: #ongoing-projects}
 
-{% include_relative _project-bakker.md %}
-{% include_relative _project-yan.md %}
-{% include_relative _project-berkers.md %}
-{% include_relative _project-ralon.md %}
 {% include_relative _project-terra.md %}
 
 <hr>
@@ -116,6 +112,12 @@ The table below provides research directions that would fit within CityAI Lab an
 ### Finished projects
 {: #finished-projects}
 
+{% include_relative _project-bakker.md %}
+{% include_relative _project-yan.md %}
+{% include_relative _project-berkers.md %}
+{% include_relative _project-ralon.md %}
+
+#### Older finished projects
 
  - [Exploring the enhancement of predictive accuracy for minority classes in travel mode choice models](http://resolver.tudelft.nl/uuid:1df779ae-acf8-44a4-9a3e-714d95669deb) (Aspasia Panagiotidou)
  - [Explainability of Deep Learning models for Urban Space perception](https://arxiv.org/abs/2208.13555) (Ruben Sangers)

@@ -6,6 +6,10 @@
       However, creating, updating, and collecting the data behind these indicators and valuations is labour-intensive. Machine learning could streamline this process and reduce the effort involved. Urban representation learning transforms complex data into simpler numerical forms for analysis. 
       My thesis explores the creation of urban representations using diverse data sources, including street-view images and road network characteristics. It also considers how the connectivity of multi-modal transport networks (walking, cycling, driving, and public transport) can guide the learning process. These representations will be examined to determine their ability to predict Leefbaarometer scores and their components accurately.
     </p>
+
+    <p>
+      <a href="https://resolver.tudelft.nl/uuid:09910139-4867-4fac-8082-672d735fe9a8">Access the finished thesis via the TU Delft Repository</a>.
+    </p>
   </div>
 
   <div class="col-sm-4">

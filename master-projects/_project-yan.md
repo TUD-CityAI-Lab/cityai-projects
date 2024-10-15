@@ -4,6 +4,9 @@
     <p>
       Visual stimuli (i.e. images) play a crucial role in many multi-attribute decision situations, such as residential location choice behaviour. On housing platforms like Funda, street-view images showing the surrounding Built-Environment (BE) near residences under consideration offer the most direct means for individuals to understand their potential living environments. However, BE features are hard to quantify and incorporate in traditional discrete choice models as most are amorphous (i.e. without a clearly defined shape or form). This thesis proposes quantifying BE features in images into pixels or instances using panoptic image segmentation models. These pixel and instance counts, in turn, are used in a traditional discrete choice model to explain choices collected in a recently conducted residential location stated-choice experiment. Studying the extent to which visual features of the BE affect residential location choices and how people make trade-offs between BE features and numeric attributes, like cost and travel time, will offer valuable insights to urban planners.
     </p>
+    <p>
+      <a href="https://resolver.tudelft.nl/uuid:210f9779-98d2-4d66-9b24-b9022ca40380">Access the finished thesis via the TU Delft Repository</a>.
+    </p>
   </div>
 
   <div class="col-sm-4">

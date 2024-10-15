@@ -4,6 +4,10 @@
     <p>
       Transportation infrastructures play a paradoxical role in the urban space. While they facilitate the movement between certain points, they also generate fragmentation and separation. Highways, railways and congested roads, to name a few, produce barrier effects that limit the movement and interaction of people at the local scale. A certain degree of urban fragmentation is inevitable, but there is a question to be asked about its severity and the groups impacted by the resulting severance. My thesis project aims to explore the relationship between urban fragmentation patterns and residential segregation patterns of people with non-EU backgrounds across major cities in Western Europe. Spatial and statistical analysis are at the core of this research, with the purpose of identifying general trends and expanding our knowledge on the role of transportation infrastructures in segregation.
     </p>
+
+    <p>
+      <a href="https://resolver.tudelft.nl/uuid:72b98e0b-cd4d-4072-8c3c-6786a51fd635">Access the finished thesis via the TU Delft Repository</a>.
+    </p>
   </div>
 
   <div class="col-sm-4">
