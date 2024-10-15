@@ -1,6 +1,9 @@
 from crossref.restful import Works
 from pybliometrics.scopus import ScopusSearch
+import pybliometrics
 import shutil
+
+pybliometrics.scopus.init(config_dir="/home/runner/.config/pybliometrics.cfg")
 
 print('query scopus...')
 
