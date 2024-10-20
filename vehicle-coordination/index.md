@@ -153,8 +153,6 @@ With Proximity Resistance (PR), which measures two-dimensional spacing between v
 ## Traffic conflict detection
 {: #conflict-detection}
 
-Conflict is
-
 <div class="row">
   <div class="col-sm-6">
     <h5>How do we determine thresholds for collision warning?</h5>
@@ -218,7 +216,7 @@ Various methods, especially those utilise machine learning, have been developed 
 
 <div class="row">
 <p style="text-align: left;">
-  <a href="https://github.com/Yiru-Jiao/Reconstruct100CarNDSData?tab=readme-ov-file" style="text-align: left;">Available on GitHub</a>
+  <a href="https://github.com/Yiru-Jiao/Reconstruct100CarNDSData" style="text-align: left;">Available on GitHub</a>
 </p>
 
   <div class="col-sm-6">
