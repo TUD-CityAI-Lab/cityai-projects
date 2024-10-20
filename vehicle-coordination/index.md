@@ -112,32 +112,34 @@ With Proximity Resistance (PR), which measures two-dimensional spacing between v
     </p>
     
     <p style="text-align: center;">
-      <img style="width: 78%;" src="public/av_hv_conceptual_framework.png"/>
+      <img src="public/av_hv_conceptual_framework.png"/>
     </p>
 
     <p>
        😈 However, this is far from the whole story. AV-involved data are mostly collected by AVs naturalistically (without experimental design or control). In this case, inconsistent conditions inherent in the HV-following-AV and HV-following-HV scenarios make an effective comparison more complicated than one would expect.
     </p>
-  </div>
-
-  <div class="col-sm-6">
-    <p>
-      <img src="public/av_hv_h1.png"/>
-      Car-following states during data collection: time headway varies across different car-following states. Non-steady states generally have larger time headways, reducing overall average time headway. Focusing on steady-state following, the average time headway reduction shrinks from 0.61s to 0.33s. 
-    </p>
 
     <hr>
 
     <p>
+      <img src="public/av_hv_h1.png"/>
+      <b>Car-following states during data collection:</b> time headway varies across different car-following states. Non-steady states generally have larger time headways, reducing overall average time headway. Focusing on steady-state following, the average time headway reduction shrinks from 0.61s to 0.33s. 
+    </p>
+
+  </div>
+
+  <div class="col-sm-6">
+
+    <p>
       <img src="public/av_hv_h2.png"/>
-      Driving variability of leading vehicles: homogeneity in leading vehicles' driving styles narrows time headway variance, shortening averages. Following a single HV reduces average time headway by 0.17s compared to following heterogeneous HVs. This suggests human drivers' time headway reduction behind AVs is influenced by uniform AV driving algorithms.
+      <b>Driving variability of leading vehicles:</b> homogeneity in leading vehicles' driving styles narrows time headway variance, shortening averages. Following a single HV reduces average time headway by 0.17s compared to following heterogeneous HVs. This suggests human drivers' time headway reduction behind AVs is influenced by uniform AV driving algorithms.
     </p>
 
     <hr>
 
     <p>
       <img src="public/av_hv_h3.png"/>
-      Unique driving characteristics of AVs: AVs’ specific driving significantly impacts reduced time headways. Human drivers following AVs with stable driving characteristics have around 0.10s shorter time headway than when following AVs mimicking HVs. Supporting evidence: No headway reduction observed when humans followed a “Wizard of Oz” AV (operated by a human but perceived as an AV), compared to an HV.
+      <b>Unique driving characteristics of AVs:</b> AVs’ specific driving significantly impacts reduced time headways. Human drivers following AVs with stable driving characteristics have around 0.10s shorter time headway than when following AVs mimicking HVs. Supporting evidence: No headway reduction observed when humans followed a “Wizard of Oz” AV (operated by a human but perceived as an AV), compared to an HV.
     </p>
 
     <p>
@@ -148,13 +150,93 @@ With Proximity Resistance (PR), which measures two-dimensional spacing between v
 </div>
 
 ---
-## Traffic conflict detection in urban environments
+## Traffic conflict detection
 {: #conflict-detection}
 
+<div class="row">
+  <div class="col-sm-6">
+    <h5>How do we determine thresholds for collision warning?</h5>
+
+    <p>
+      With labelled data, this question is not complicated. As a binary classification between "yes there is a potential collision" and "no there is no potential collision", the threshold is a parameter to optimise an objective, which can vary but generally minimises missed and false alarms.
+    </p>
+
+    <p>
+      However, unsafe and safe driving are highly imbalanced in daily basis. One may encounter only one conflict per tens-of-km driving. This makes it difficult to collect labelled data. Without labelled conflicts, how do we still optimise thresholds? The key is estimation. As shown in the picture, the new method we propose can minimise false alarms and missed alarms for both synthetic and real-world conflicts, which account for less than 0.1%, without knowing their labels.
+    </p>
+      
+    <p style="text-align: center;">
+      <img style="width: 85%;" src="public/IEEEIV_Yiru.png"/>
+    </p>
+
+    <p>
+      The minimisation is as good as it gets, depending on how much effective information of the conflict context is properly considered. We think this constrains the trade-off (ROC curve) between false alarms and missed alarms of a detection model.
+    </p>
+
+    <p>
+      <a href="https://doi.org/10.1109/IV55156.2024.10588396">Paper Link</a> |  <a href="https://github.com/Yiru-Jiao/Conflict-detection-MFaM">GitHub Repository</a>
+    </p>
+
+  </div>
+
+  <div class="col-sm-6">
+    <h5>A unified theory and statistical learning approach to conflict detection</h5>
+
+    <p>
+       How do we evaluate the safety level of an interaction? There are a variety of Surrogate Measures of Safety (SMoS) for various interaction scenarios such as car-following, lane-changing, crossing, etc.; for each of them, the threshold distinguishing safe and unsafe interactions also varies in different traffic conditions.  This variety of SMoS makes safety evaluation inconsistent and difficult to compare across different scenarios. As the rapid development of autonomous vehicles (AVs) and connected vehicles (CVs) is reshaping the traffic environment, it is crucial to have a unified theory and method to evaluate the safety level of interactions.
+    </p>
+      
+    <p style="text-align: center;">
+      <img src="public/Figure9.gif"/>
+    </p>
+
+    <p>
+      Conflicts do not appear from nowhere, and every conflict is an extreme event continued from safe driving. We consider conflicts as context-dependent extreme events in ordinary interactions; statistical learning enables data-driven hypotheses of conflicts incorporating diverse factors. This methodology performs at least as well as existing SMoS, both theoretically and experimentally; it is also generalizable across different traffic environments. Consistent evaluations can support scalable and reliable safety research in the future, especially in the age of autonomous driving.
+    </p>
+
+    <p>
+      <a href="https://arxiv.org/abs/2407.10959">Paper Link</a> |  <a href="https://github.com/Yiru-Jiao/UnifiedConflictDetection">GitHub Repository</a>
+    </p>
+
+  </div>
+
+</div>
 
 ---
-## Datasets for studying driving reaction difference between human-driven vehicles (HVs) and autonomous vehicles (AVs)
+## Datasets/Softwares
 {: #datasets}
+
+### Reconstructed bird's eye view trajectories of the crashes and near-crashes from the 100-Car NDS data
+
+Around 2000, a large-scale naturalistic driving study was conducted in the US. More than 100 passenger cars were equipped with sensors and their drivers were asked to drive as usual for two years, with minimal intervention by the research team. During the project, 68 crashes plus 760 near-crashes were recorded with pre- and post-event radar and accelerometer data compiled, along with natural language descriptions of the events. This is the 100-Car NDS data that has been widely used in traffic safety studies.
+
+In 2018, non-sensitive data in the project were released under the license of CC0 1.0., including the time-series data and linguistic description data mentioned above. Coincidentally, highD was also released in 2018 as the first large-scale drone trajectory dataset, which has become the most widely used bird's eye view trajectory dataset after NGSIM. 
+
+Various methods, especially those utilise machine learning, have been developed based on bird's eye view data as input. However, when it comes to validation, many of them used synthetic conflicts defined by TTC or generated with traffic simulations. This lack of real-world validation is the major motivation to make the reconstruction (But this effort is still far from even enough).
+
+<div class="row">
+<p style="text-align: left;">
+  <a href="https://github.com/Yiru-Jiao/Reconstruct100CarNDSData" style="text-align: left;">Available on GitHub</a>
+</p>
+
+  <div class="col-sm-6">
+    <p style="text-align: center;">
+      <img src="public/8360.png" alt="Trajectory smoothing example">
+    </p>
+  </div>
+  <div class="col-sm-6">
+   <p>
+      Not all of the events can be reconstructed due to the missing values, inaccuracy of sensing, and the lack of a ground truth. The following example visualises one of the reconstructed and matched crashes.
+    </p>
+
+    <p style="text-align: center;">
+      <img src="public/event_8360.gif" alt="Crash event example">
+    </p>
+  </div>
+</div>
+
+
+### Datasets for studying driving reaction difference between human-driven vehicles (HVs) and autonomous vehicles (AVs)
 
 Do human drivers behave differently when they interact with automated vehicles in urban traffic, and if so, how?
 
@@ -174,14 +256,14 @@ To answer this question requires high-quality and high-fidelity data. Thanks to 
       </p>
 
       <p style="text-align: center;">
-        <img src="public/spd_lyftexample.png" alt="Trajectory denoising example">
+        <img style="width: 70%;" src="public/spd_lyftexample.png" alt="Trajectory denoising example">
         <b>Figure: Trajectory denoising example</b>
       </p>
 
       <hr>
 
       <p style="text-align: center;">
-        <img src="public/spd_lyftregime.png" alt="Trajectory denoising example">
+        <img style="width: 70%;" src="public/spd_lyftregime.png" alt="Trajectory denoising example">
         <b>Figure: Car-following regime diversity in the dataset</b>
       </p>
   </div>
@@ -196,7 +278,7 @@ To answer this question requires high-quality and high-fidelity data. Thanks to 
     </p>
 
     <p style="text-align: center;">
-      <img src="public/spd_argoregime.png" alt="Conflict-resolving regime examples">
+      <img style="width: 75%;" src="public/spd_argoregime.png" alt="Conflict-resolving regime examples">
       <b>Conflict-resolving regime examples</b>
     </p>
   </div>
