@@ -5,10 +5,11 @@ title: "Vehicle coordination in urban traffic: a perspective from human behaviou
 
 
 <ul class="nav project-nav col-12 col-lg-auto me-lg-auto mb-2">
-  <li><a href="#two-dimensional-spacing" class="nav-link px-2">2D Vehicle Spacing</a></li>
+  <li><a href="#two-dimensional-spacing" class="nav-link px-2">2D Spacing Inference</a></li>
   <li><a href="#cooperative-interaction" class="nav-link px-2">Cooperative Vehicle Interaction</a></li>
   <li><a href="#av-hv-car-following" class="nav-link px-2">Reduced Headway after AVs</a></li>
-  <li><a href="#datasets" class="nav-link px-2">Datasets</a></li>
+  <li><a href="#conflict-detection" class="nav-link px-2">Traffic Conflict Detection</a></li>
+  <li><a href="#datasets" class="nav-link px-2">Datasets/Softwares</a></li>
   <li><a href="#contact" class="nav-link px-2">Contact</a></li>
 </ul>
 
@@ -95,6 +96,61 @@ With Proximity Resistance (PR), which measures two-dimensional spacing between v
 ---
 ## Beyond Behaviour Change: Investigating Alternative Explanations for Shorter Time Headways When Human Drivers Follow Automated Vehicles
 {: #av-hv-car-following}
+
+<div class="row">
+  <div class="col-sm-6">
+    <p>
+      How do human drivers react when they follow behind automated vehicles?
+    </p>
+      
+    <p style="text-align: center;">
+      <img style="width: 78%;" src="public/av_hv_without_isolation.png"/>
+    </p>
+
+    <p>
+      🤔 Many empirical studies observed shorter time headway of human drivers following automated vehicles (AVs) compared to following human driving vehicles (HVs). This sounds exciting -- not only can AVs maintain shorter time headway from leading vehicles, but also human drivers behind AVs -- such a good sign for traffic improvement! 
+    </p>
+    
+    <p style="text-align: center;">
+      <img style="width: 78%;" src="public/av_hv_conceptual_framework.png"/>
+    </p>
+
+    <p>
+       😈 However, this is far from the whole story. AV-involved data are mostly collected by AVs naturalistically (without experimental design or control). In this case, inconsistent conditions inherent in the HV-following-AV and HV-following-HV scenarios make an effective comparison more complicated than one would expect.
+    </p>
+  </div>
+
+  <div class="col-sm-6">
+    <p>
+      <img src="public/av_hv_h1.png"/>
+      Car-following states during data collection: time headway varies across different car-following states. Non-steady states generally have larger time headways, reducing overall average time headway. Focusing on steady-state following, the average time headway reduction shrinks from 0.61s to 0.33s. 
+    </p>
+
+    <hr>
+
+    <p>
+      <img src="public/av_hv_h2.png"/>
+      Driving variability of leading vehicles: homogeneity in leading vehicles' driving styles narrows time headway variance, shortening averages. Following a single HV reduces average time headway by 0.17s compared to following heterogeneous HVs. This suggests human drivers' time headway reduction behind AVs is influenced by uniform AV driving algorithms.
+    </p>
+
+    <hr>
+
+    <p>
+      <img src="public/av_hv_h3.png"/>
+      Unique driving characteristics of AVs: AVs’ specific driving significantly impacts reduced time headways. Human drivers following AVs with stable driving characteristics have around 0.10s shorter time headway than when following AVs mimicking HVs. Supporting evidence: No headway reduction observed when humans followed a “Wizard of Oz” AV (operated by a human but perceived as an AV), compared to an HV.
+    </p>
+
+    <p>
+      <a href="https://doi.org/10.1016/j.trc.2024.104673">Paper Link</a> |  <a href="https://github.com/Yiru-Jiao/Explaining-headway-reduction-of-HVs-following-AVs">GitHub Repository</a>
+    </p>
+  </div>
+
+</div>
+
+---
+## Traffic conflict detection in urban environments
+{: #conflict-detection}
+
 
 ---
 ## Datasets for studying driving reaction difference between human-driven vehicles (HVs) and autonomous vehicles (AVs)
