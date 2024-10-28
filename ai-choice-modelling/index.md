@@ -1,35 +1,54 @@
 ---
 layout: default
-title: Artificial intelligence to comprehend, automate and assist choice modellers` decisions
+title: Understanding, automating, and assisting choice modeller's workflows through AI
 ---
 
 <ul class="nav project-nav col-12 col-lg-auto me-lg-auto mb-2">
   <li><a href="#contact" class="nav-link px-2">Contact</a></li>
 </ul>
 
-## Using artificial intelligence to comprehend, automate and assist choice modellers` decisions
+## Understanding, automating, and assisting choice modeller's workflows through AI
 
 <div class="row">
-  <div class="col-sm-8">
-    <p>
-    Discrete choice modelling is a well-developed and theoretically underpinned modelling framework, which is used in various scientific disciplines for studying human behaviour, including in transport, health, economics, and marketing. Discrete choice models are typically used to infer preferences over attributes and alternatives as well as to compute consumers' willingness to pay, e.g. to improve a service or product. As such, discrete choice models are often instrumental to policymaking.
-    </p>
 
+  <div class="col-sm-12">  
     <p>
-    Choice modelling involves mixing formal behavioural theories and statistical methods with subjective judgments of the model builder (a.k.a. the choice modeller). Model building is often considered an art, and involves various stages, such as data collection, descriptive analysis, model specification development, and interpretation of outcomes. During the modelling process, numerous small and large decisions must be made by the choice modeller, such as which analyses to conduct and which model specifications to test. Nowadays there various textbooks and courses available to learn modelling choice behaviour.
+    Discrete choice modelling is a robust modelling framework for understanding and forecasting human choice behaviour across various fields. These models are typically used to infer individual preferences, estimate consumers’ willingness to pay, generate behavioural insights that inform policy decisions. Unlike traditional approach, this research is considered as an art form. This perspective arise from the need to blend formal behavioural theories, statistical methodologies, and the judgments of choice modellers up to reporting results in the iterative journey from data collection trough descriptive analysis, models specification, outcome interpretation to the reporting of the results.
     </p>
-
     <p>
-    However, the full modelling process leading to the final choice models reported in scientific papers and/or used for policy analysis is only partially codified. Small, but potentially important, modelling steps are underreported or even overlooked, especially those prior to the actual estimation of choice models. This lack of knowledge on the entire modelling process hampers discussion and development of best practices in choice modelling. Moreover, it holds back efforts to automate part of the modelling process in software packages.
+    While the literature on Choice modelling offers extensive knowledge about diverse modelling approaches, it falls short in fully capturing the decision-making process that modellers undertake across research phases. These decisions significantly influence the modelling results, especially as modellers have degrees of freedom in choosing, adjusting, and interpreting model specifications based on analyses carried out in previous phases. Although this flexibility promotes exploration and efficient methodological progress, it also carries the risk of poor decisions, limits reproducibility, and hamper discussion about good practices in the community.
     </p>
-
+    <br>
+    <h3>Projects</h3>
     <p>
-    The project has two main objectives. Firstly, it aims to provide a comprehensive understanding of the various modelling steps employed by choice modellers during the collection of choice data and the development of choice models. Secondly, it seeks to develop a set of tools that can support choice modellers by offering recommendations and automating various stages of data collection, analysis, model specification development, and outcome interpretation. These tools will streamline the process and enhance the efficiency of choice modelling, enabling researchers to make better-informed modelling decisions and draw meaningful conclusions from their analyses.
-    </p>
+    To address these research gaps, our first project introduces the <strong><a href="http://dcm-serious-game.tudelft.nl/?Session_id=test">Serious Choice Modelling Game</a></strong>, which mimics the actual modelling process. This allows us to capture and analyse the decision-making processes of modellers during the descriptive data analysis, model specification, outcome interpretation, and reporting phases. Participants were asked to develop choice models using a stated preference dataset to inform policymakers about individual willingness-to-pay values. Their workflows reveal variability among the descriptive analysis approaches used, the way they navigate across model specifications, and the reported willingness-to-pay.
+    </p>    
   </div>
 
-  <div class="col-sm-4">
-    <img src="{{ 'ai-choice-modelling/choice_modellers.png' | relative_url }}" alt="Research Degree of Freedom">
+  <div class="col-sm-12" style="text-align: center;">
+    <img src="{{ 'ai-choice-modelling/DCM_overview.png' | relative_url }}" alt="Conceptual overview of the choice modelling research process (Nova et al., 2024)" style="max-width: 50%; height: auto;">
+    <p><em>Conceptual overview of the choice modelling research process</em></p>
+  </div>
+  <br>
+  <br>
+  <div class="col-sm-12">
+    <br>
+    <p>
+    Our second project aims to develop tools to support choice modellers in their process of finding a model specification that captures the true choice process. In this trial-and-error process, researchers include transformations, interactions, and other assumptions on variables to capture observed heterogeneity, taste variations, and other complexities across decision-makers’ choices. This project introduces agents that offer recommendations about model specifications that meet predefined objectives.
+    </p>
+    <br>
+    <br>
+    <h3>MSc theses</h3>
+    <ul>
+      <li>
+        <strong>Exploring the Enhancement of Predictive Accuracy for Minority Classes in Travel Mode Choice Models</strong><br>
+        <em>Author:</em> Aspasia Panagiotidou (TU Delft)
+      </li>
+      <li>
+        <strong>Analysis of the Contribution of Explanatory Factors on the Predicted Choice Probabilities Derived from the L-MNL Using the SHAP Method: A Mode Choice Application</strong><br>
+        <em>Author:</em> Exequiel Salazar (Universidad de Concepción)
+      </li>
+    </ul>
   </div>
 </div>
 
