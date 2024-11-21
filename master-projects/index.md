@@ -84,8 +84,7 @@ The table below provides research directions that would fit within CityAI Lab an
     </tr>
     <tr>
       <td>
-        <li>Data analysis on the interactions between Automated Vehicles and human road users in urban traffic. Data has been well processed and handy to use.</li>
-        <li>Safety evaluation of multi-vehicle interactions on highways. The evaluation will be based on a framework we are publishing. This project requires experience with pytorch. </li>
+        <li>Safety analysis on the interactions between Automated Vehicles and human road users in urban traffic. Data has been well processed and handy to use.</li>
         <br>
       </td>
       <td><a href="mailto:Y.jiao-1@tudelft.nl">Yiru Jiao</a></td>
