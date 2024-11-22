@@ -50,6 +50,27 @@ title: Understanding, automating, and assisting choice modeller's workflows thro
       </li>
     </ul>
   </div>
+
+  <div class="col-sm-12">
+  <br>
+  <h3>MSc projects</h3>
+  <p>
+    Are you interested further expanding choice modeling with cutting-edge AI techniques? We welcome students looking to conduct their thesis on projects that address innovative problem in this field.
+  </p>
+  <ul>
+    <li>
+      <strong>Reinforcement learning for discrete choice modeling</strong><br>
+      <p>
+        (1) Develop robust RL agents to support analysts in exploring the model specifications space. (2) Collaborate in the design of RL environments that incorporate human knowledge, can reflect behavioral constraints, and extend to other model families such as unobserved heterogeneity and latent class models.
+      </p>
+    </li>
+    <li>
+      <strong>Immersion in Gaming Environments</strong><br>
+      <p>
+        Data collected: Physiological responses were measured while participants played a scary video game on different platforms, such as traditional monitors and virtual reality. You could move forward in understanding the visual and/or audio factors of terror that lead to physiological changes or responses. 
+      </p>
+    </li>   
+  </ul>
 </div>
 
 <br>
