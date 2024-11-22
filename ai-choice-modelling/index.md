@@ -75,8 +75,7 @@ title: Understanding, automating, and assisting choice modeller's workflows thro
 
 <br>
 
-### Contact
-{: #contact}
+### Contact{: #contact}
 
 <div class="card contact-card" style="max-width: 360px;">
   <div class="row g-0">
