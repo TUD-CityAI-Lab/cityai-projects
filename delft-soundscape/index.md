@@ -1,6 +1,6 @@
 ---
 layout: detached_page
-title: "Participate in Delft's soundscape study and install a noise sensor"
+title: "Do you want to participate in Delft's soundscape study by installing a noise sensor?"
 ---
 
 <ul class="nav project-nav col-12 col-lg-auto me-lg-auto mb-2">
@@ -10,7 +10,7 @@ title: "Participate in Delft's soundscape study and install a noise sensor"
 
 ## Participate in Delft's soundscape study and install a noise sensor
 
-Noise pollution is a huge burden for citizens in the urban environment. Not only does noise cause stress and annoyance, it also contributes to negative health outcomes such as heart desease and sleeping problems. To mitigate noise one must understand the soundscape of our cities. While traffic noise is often perceived as a nuisance, bird song may have a restorative effect on our well-being. Therefore, we want to not only measure sound levels in Delft, but also detect the sound sources, such as traffic, birds, or crowds. For this, we need the help of curious citizens who are willing to install one of our sensors outside their home.
+Noise pollution is a huge burden for citizens in the urban environment. Not only does noise cause stress and annoyance, but it also contributes to negative health outcomes such as heart disease and sleeping problems. To mitigate noise, one must understand the soundscape of our cities. While traffic noise is often perceived as a nuisance, bird song may have a restorative effect on our well-being. Therefore, we want to not only measure sound levels in Delft but also detect sound sources, such as traffic, birds, ambulances, crowds, etc. For this, **we need the help of citizens who are willing to install a noise sensor outside their homes.**
 
 <div class="alert" style="background-color: #93939342; color: #121212; font-size: 1.15rem; font-style: italic; border-left: 4px solid #00a6d6; padding: 10px; border-radius: 0;">
   <a href="#sign-up" style="text-decoration: none; color: inherit;">
@@ -35,7 +35,7 @@ Noise pollution is a huge burden for citizens in the urban environment. Not only
 
 ### How it works
 {: #how}
-The soundscape sensor was developed internally at TU Delft. The devices are solar-powered and do not need access to power. With your help, we can gather valuable information about the sounds of Delft.
+The soundscape sensor was developed at TU Delft. The devices are solar-powered and do not need access to power. With your help, we can gather valuable information about the sounds of Delft.
 
 **What do we measure?**
  - **Loudness (dB(A))**: This tells us how loud it is, using decibels adjusted to human hearing.
@@ -52,12 +52,12 @@ The soundscape sensor was developed internally at TU Delft. The devices are sola
 
 💡 Privacy notice: The **sensors DO NOT record any raw audio**. We only measure characteristics of the sound, which makes it impossible to extract any personal information, such as spoken words.
 
-📢 Your **neighborhood does not need to be particularly noisy** to participate. We are interested in both, pleasent and unpleasend soundscapes.
+📢 Your **neighbourhood does not need to be particularly noisy** to participate. We are interested in both pleasant and unpleasant soundscapes.
 
 ### How to sign up
 {: #sign-up}
 Did we spark your interest? Then we would be delighted if you **kindly respond to the sign-up form**.
-Please note that we may not be able to accomodate all requests, but we will do our best to accept as many participants as possible.
+Please note that we may not be able to accommodate all requests, but we will do our best to accept as many participants as possible.
 
 <a class="btn btn-primary btn-lg" href="https://forms.office.com/e/efHNQxn6mz" role="button" style="color: white; border-radius: 0; padding-left: 20pt; padding-right: 20pt;" target="_blank">Sign up now</a>
 
