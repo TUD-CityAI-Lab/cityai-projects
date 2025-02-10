@@ -14,13 +14,13 @@ Noise pollution is a huge burden for citizens in the urban environment. Not only
 
 <div class="row">
   <div class="col-sm-4" style='text-align: center'>
-    <img src="{{ 'noise-in-delft/images/sensor-terrace-1.webp' | relative_url }}" style="max-height: 330pt">
+    <img src="{{ 'delft-soundscape/images/sensor-terrace-1.webp' | relative_url }}" style="max-height: 330pt">
   </div>
   <div class="col-sm-4" style='text-align: center'>
-    <img src="{{ 'noise-in-delft/images/sensor-balcony.webp' | relative_url }}" style="max-height: 330pt">
+    <img src="{{ 'delft-soundscape/images/sensor-balcony.webp' | relative_url }}" style="max-height: 330pt">
   </div>
   <div class="col-sm-4" style='text-align: center'>
-    <img src="{{ 'noise-in-delft/images/sensor-mounting.webp' | relative_url }}" style="max-height: 330pt">
+    <img src="{{ 'delft-soundscape/images/sensor-mounting.webp' | relative_url }}" style="max-height: 330pt">
   </div>
 </div>
 
