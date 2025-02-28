@@ -63,8 +63,6 @@ Please note that we may not be able to accommodate all requests, but we will do 
 
 After filling out the form, we will come back to you before the end of March 2025.
 
-<br>
-
 ### Researcher
 
 <div class="card contact-card" style="max-width: 360px;">
