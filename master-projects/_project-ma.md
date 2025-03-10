@@ -16,7 +16,7 @@ Urban noise pollution is an increasing environmental problem with significant im
         </div>
         <div class="col-sm-9 gx-sm-3">
           <div class="card-body">
-            <h5 class="card-title">Roos Terra</h5>
+            <h5 class="card-title">Yuxiao Ma</h5>
             <p class="card-text">
               Master student<br>
               <!-- <a href="mailto:mail@tudelft.nl">some.address@student.tudelft.nl</a> -->
