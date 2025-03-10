@@ -104,13 +104,15 @@ The table below provides research directions that would fit within CityAI Lab an
 ### Ongoing projects
 {: #ongoing-projects}
 
-{% include_relative _project-terra.md %}
+{% include_relative _project-veldkamp.md %}
+{% include_relative _project-ma.md %}
 
 <hr>
 
 ### Finished projects
 {: #finished-projects}
 
+{% include_relative _project-terra.md %}
 {% include_relative _project-bakker.md %}
 {% include_relative _project-yan.md %}
 {% include_relative _project-berkers.md %}
