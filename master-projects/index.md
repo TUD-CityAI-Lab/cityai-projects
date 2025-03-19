@@ -106,6 +106,7 @@ The table below provides research directions that would fit within CityAI Lab an
 
 {% include_relative _project-veldkamp.md %}
 {% include_relative _project-ma.md %}
+{% include_relative _project-kedar.md %}
 
 <hr>
 
