@@ -57,11 +57,8 @@ The soundscape sensor was developed at TU Delft. The devices are solar-powered a
 ### How to sign up
 {: #sign-up}
 Did we spark your interest? Then we would be delighted if you **kindly respond to the sign-up form**.
-Please note that we may not be able to accommodate all requests, but we will do our best to accept as many participants as possible.
 
-<a class="btn btn-primary btn-lg" href="https://forms.office.com/e/efHNQxn6mz" role="button" style="color: white; border-radius: 0; padding-left: 20pt; padding-right: 20pt;" target="_blank">Sign up now</a>
-
-After filling out the form, we will come back to you by the end of March 2025.
+<a class="btn btn-primary btn-lg" href="https://lioff.github.io/timeslot/" role="button" style="color: white; border-radius: 0; padding-left: 20pt; padding-right: 20pt;" target="_blank">Sign up now</a>
 
 ### Researcher
 
