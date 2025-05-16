@@ -46,7 +46,7 @@ The soundscape sensor was developed at TU Delft. The devices are solar-powered a
 **What you need to know**
  - Together, **we will find a suitable location** to mount the sensor, such as a rain pipe, fence, or balcony.
  - Our team will **install the sensor for you** to ensure proper setup.
- - The sensor will remain installed for about **4–5 weeks**.
+ - The sensor will remain installed for about **2 month**.
  - We will also kindly ask you to fill in a **short survey** on noise annoyance.
  - After completion of the project, you’ll **receive a report summarizing the noise characteristics** at your location.
 
@@ -56,7 +56,7 @@ The soundscape sensor was developed at TU Delft. The devices are solar-powered a
 
 ### How to sign up
 {: #sign-up}
-Did we spark your interest? Then we would be delighted if you **kindly respond to the sign-up form**.
+Did we spark your interest? Then we would be delighted if you **kindly respond to the sign-up form** where you can select a timeslot for the sensor installation.
 
 <a class="btn btn-primary btn-lg" href="https://lioff.github.io/timeslot/" role="button" style="color: white; border-radius: 0; padding-left: 20pt; padding-right: 20pt;" target="_blank">Sign up now</a>
 
