@@ -13,7 +13,7 @@
       <div class="card-body">
         <h5 class="card-title">Open Thesis Opportunity</h5>
         <p class="card-text">
-          If you're interested, please contact the supervising team.
+          If you're interested, please contact Sander van Cranenburgh.
         </p>
       </div>
     </div>
