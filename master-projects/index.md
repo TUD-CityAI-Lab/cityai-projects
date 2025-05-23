@@ -28,9 +28,11 @@ The ideal student for an MSc project at the CityAI Lab has the following profile
 
 ### Current opportunities
 {: #opportunities}
-The table below provides research directions that would fit within CityAI Lab and the person to get in contact with. 
+The information below provides research directions that would fit within CityAI Lab and the person to get in contact with. 
 
-<table class="table table-striped">
+{% include_relative _opportunity-smartcleaning.md %}
+
+<table class="table table-striped"> 
   <thead>
     <tr>
       <th>Research direction</th>
