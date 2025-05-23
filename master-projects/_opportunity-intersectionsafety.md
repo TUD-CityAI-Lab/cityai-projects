@@ -5,6 +5,7 @@
      Traffic accidents in Rotterdam have been rising for over a decade, with a disproportionate number occurring at intersections. While it is widely recognised that both user behaviour and infrastructure play a role, the specific factors that drive intersection risk remain unclear. In this thesis, you will analyse traffic accident data—capturing details such as transport mode and time of day—in combination with spatial data on road layout, land use, and traffic volumes. The aim is to develop a predictive model that uncovers patterns in accident risk and highlights why certain intersections are more hazardous than others. Your insights will support targeted, evidence-based interventions to enhance intersection safety across the city.
     </p>
     <p><strong>Supervision:</strong> Dr. Sander van Cranenburgh (TPM, TU Delft)<br>
+       <strong>In collaboration with:</strong> Municipality of Rotterdam</p>
   </div>
 
   <div class="col-sm-4">
