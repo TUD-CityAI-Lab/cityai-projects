@@ -13,7 +13,7 @@
       <div class="card-body">
         <h5 class="card-title">Thesis Opportunity</h5>
         <p class="card-text">
-          If you're interested, please contact Sander van Cranenburgh.
+          <a href="mailto:s.vancranenburgh@tudelft.nl">Contact Dr. Sander van Cranenburgh</a>
         </p>
       </div>
     </div>
