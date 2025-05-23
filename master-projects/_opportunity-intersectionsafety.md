@@ -10,7 +10,7 @@
   <div class="col-sm-4">
     <div class="card contact-card">
       <div class="card-body">
-        <h5 class="card-title">Open Thesis Opportunity</h5>
+        <h5 class="card-title">Thesis Opportunity</h5>
         <p class="card-text">
           If you're interested, please contact Sander van Cranenburgh.
         </p>
