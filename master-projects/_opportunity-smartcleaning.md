@@ -1,8 +1,8 @@
 <div class="row">
   <div class="col-sm-8">
-    <h4 id="explainable-ai-street-cleaning">Designing an eXplainable AI model for smarter street cleaning in Rotterdam</h4>
+    <h4 id="metro-stations">Designing metro stations that align with travellers’ preferences</h4>
     <p>
-      How can we predict operational resource demand for street cleaning using data and AI? The municipality of Rotterdam currently allocates cleaning teams and equipment largely based on surface area and professional judgement. However, factors such as weather conditions, tree coverage, seasonal variation, and local land use significantly influence how quickly streets become dirty. In this thesis, you will develop a data-driven predictive model to estimate the required operational resources for street cleaning. The model will use inputs such as street view imagery, GIS data (e.g. tree locations, land use), weather data, cleaning equipment records, and inspection reports. A key objective is to generate interpretable insights into which factors most strongly influence resource demand, thereby supporting more efficient and evidence-based planning of street cleaning operations.
+      To promote public transport use, the Municipality of Rotterdam wants to better align the design of metro stations with the preferences of travellers. The layout, atmosphere, surrounding amenities, and transfer time at a station can all play an important role in how people use and perceive public transport. In this project, you will develop a stated choice experiment that combines images with key attributes, such as transfer time and amenities, to elicit travellers’ preferences for different metro station designs. The results will provide insights to help the municipality design safer, more attractive and user-friendly metro stations.
     </p>
     <p><strong>Supervision:</strong> Dr. Sander van Cranenburgh (TPM, TU Delft)<br>
        <strong>In collaboration with:</strong> Municipality of Rotterdam</p>
