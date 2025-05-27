@@ -30,7 +30,7 @@ The ideal student for an MSc project at the CityAI Lab has the following profile
 {: #opportunities}
 The information below provides research directions that would fit within CityAI Lab and the person to get in contact with. 
 
-{% include_relative _opportunity-smartcleaning.md %}
+{% include_relative _opportunity-metrostations.md %}
 {% include_relative _opportunity-30kmh.md %}
 {% include_relative _opportunity-transformerhouses.md %}
 {% include_relative _opportunity-intersectionsafety.md %}
