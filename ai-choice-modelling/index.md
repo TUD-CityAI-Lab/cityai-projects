@@ -34,8 +34,17 @@ title: Understanding, automating, and assisting choice modeller's workflows thro
   <div class="col-sm-12">
     <br>
     <p>
-    Our second project aims to develop tools to support choice modellers in their process of finding a model specification that captures the true choice process. In this trial-and-error process, researchers include transformations, interactions, and other assumptions on variables to capture observed heterogeneity, taste variations, and other complexities across decision-makers’ choices. This project introduces agents that offer recommendations about model specifications that meet predefined objectives.
+    Our second project aims to develop tools to support choice modellers in their process of finding model specifications that capture decision-makers' choice process. Extracting meaningful insights from such models then requires the careful selection of an appropriate specification, an iterative process that is often time-consuming due to the many modelling decisions involved. 
     </p>
+    <p>
+    This project introduces a reinforcement learning framework, which formalises an agent-environment interaction to automate the model specification process in discrete choice models. This interaction is modelled as a Markov Decision Process, in which a Deep Q-Network agent sequentially takes actions to propose a model specification, while an environment performs the estimation process and returns feedback based on the modelling outcomes, as depicted in the below Figure:
+    </p>
+    </div>
+    <div class="col-sm-12" style="text-align: center;">
+      <img src="{{ 'ai-choice-modelling/dcm_rl.png' | relative_url }}" alt="DQN agent - DCM environment framework" style="max-width: 50%; height: auto;">
+      <p><em>Conceptual overview of the choice modelling research process</em></p>
+    </div>
+    <div>
     <br>
     <br>
     <h3>MSc theses</h3>
