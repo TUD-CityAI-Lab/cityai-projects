@@ -29,6 +29,12 @@ title: Understanding, automating, and assisting choice modeller's workflows thro
     <img src="{{ 'ai-choice-modelling/DCM_overview.png' | relative_url }}" alt="Conceptual overview of the choice modelling research process (Nova et al., 2024)" style="max-width: 50%; height: auto;">
     <p><em>Conceptual overview of the choice modelling research process</em></p>
   </div>
+  <div class="col-sm-12" style="text-align: center;">
+    <iframe src="{{ 'ai-choice-modelling/IATBR_2024_ok.pdf' | relative_url }}" width="80%" height="500px" style="border: none;"></iframe>
+    <p>
+      <a href="{{ 'ai-choice-modelling/IATBR_2024_ok.pdf' | relative_url }}" target="_blank">📥 Download PDF</a>
+    </p>
+  </div>
   <br>
   <br>
   <div class="col-sm-12">
@@ -42,9 +48,14 @@ title: Understanding, automating, and assisting choice modeller's workflows thro
     </div>
     <div class="col-sm-12" style="text-align: center;">
       <img src="{{ 'ai-choice-modelling/dcm_rl.png' | relative_url }}" alt="DQN agent - DCM environment framework" style="max-width: 50%; height: auto;">
-      <p><em>Conceptual overview of the choice modelling research process</em></p>
+      <p><em>Delphos: A DQN agent that automate the utility specification process</em></p>
     </div>
-    <div>
+    <div class="col-sm-12" style="text-align: center;">
+    <iframe src="{{ 'ai-choice-modelling/hEART_2025.pdf' | relative_url }}" width="80%" height="500px" style="border: none;"></iframe>
+    <p>
+      <a href="{{ 'ai-choice-modelling/hEART_2025.pdf' | relative_url }}" target="_blank">📥 Download PDF</a>
+    </p>
+  </div>
     <br>
     <br>
     <h3>MSc theses</h3>
