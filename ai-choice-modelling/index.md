@@ -24,7 +24,7 @@ title: Understanding, automating, and assisting choice modeller's workflows thro
     To address these research gaps, our first project introduces the <strong><a href="http://dcm-serious-game.tudelft.nl/?Session_id=test">Serious Choice Modelling Game</a></strong>, which mimics the actual modelling process. This allows us to capture and analyse the decision-making processes of modellers during the descriptive data analysis, model specification, outcome interpretation, and reporting phases. Participants were asked to develop choice models using a stated preference dataset to inform policymakers about individual willingness-to-pay values. Their workflows reveal variability among the descriptive analysis approaches used, the way they navigate across model specifications, and the reported willingness-to-pay.
     </p>    
     <p>  
-    To facilitate future research, the source code and installation instructions for the Serious Choice Modelling Game are publicly available on GitHub. The repository can be accessed at <a href="https://github.com/gnova3/DCM-SG" target="_blank">https://github.com/gnova3/DCM-SG</a>.  
+    To facilitate future research, the source code and installation instructions for the Serious Choice Modelling Game are publicly available on GitHub. The repository can be accessed at <a href="https://github.com/TUD-CityAI-Lab/DCM-SG" target="_blank">https://github.com/TUD-CityAI-Lab/DCM-SG</a>.  
     </p>  
   </div>
 
