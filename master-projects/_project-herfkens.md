@@ -1,9 +1,13 @@
 <div class="row">
   <div class="col-sm-8">
-    <h4 id="pepijn-herfkens">Towards sustainable urban environments: Adapting the Audio Spectrogram Transformer for soundscape analysis</h4>
+    <h4 id="pepijn-herfkens">Edge AI for Urban Noise Monitoring: Perceptual Soundscape Prediction on Low-Cost Sensors</h4>
     <p>
-My thesis aims to bridge a critical gap in sustainable urban planning by integrating advanced soundscape analysis with deep learning techniques. It focuses on adapting the Audio Spectrogram Transformer (AST), a cutting-edge, attention-based model, to predict eight perceptual attributes of urban soundscapes: Pleasant, Vibrant, Eventful, Chaotic, Annoying, Monotonous, Uneventful, and Calm. I will use the data provided by the International Soundscape Database, which includes audio recordings accompanied by in situ perceptual ratings, the research begins by converting raw audio into Mel-spectrograms, the preferred input format for the AST. The model is then adapted by modifying its final layer to output predictions corresponding to each of the eight attributes. By employing deep learning and explainable AI techniques, the research aims to provide urban planners with actionable insights to design healthier, more liveable urban environments.
+This thesis explores the development of lightweight neural network models for predicting perceptual soundscape attributes and environmental sound sources, with the goal of enabling real-time, sensor-based soundscape monitoring in urban environments. Recognizing the limitations of conventional noise metrics, the study adopts a perceptual approach that accounts for how individuals experience urban soundscapes. The work leverages the Affective Responses to Augmented Urban Soundscapes (ARAUS) dataset to replicate and extend the training pipeline of the baseline AD_CNN model. Four parameter-reduction strategies are implemented - shrinking convolutional and dense layers, reducing temporal resolution, and increasing pooling - to produce compact models suitable for low-cost, resource-constrained sensors. A generalisation study evaluates model robustness on a separate urban parks dataset, revealing that while the lightweight ensemble performs well overall, it struggles with certain attributes such as pleasantness. Larger models like SoundAQnet generalise better but remain imperfect. The findings demonstrate the technical feasibility of lightweight perceptual models but also highlight the need for localised fine-tuning to account for subjective and context-dependent factors shaping soundscape perception.
     </p>
+
+    <p>
+  <a href="[https://resolver.tudelft.nl/uuid:0b2ca2fb-cabc-4ba2-9b5e-77cf7dcc6e02](https://resolver.tudelft.nl/uuid:b74f4eb7-f034-49a4-b166-59bb96f3864b)">Access the finished thesis via the TU Delft Repository</a>.
+</p>
   </div>
 
   <div class="col-sm-4">
