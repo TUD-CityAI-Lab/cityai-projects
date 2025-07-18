@@ -6,7 +6,7 @@ This thesis explores the development of lightweight neural network models for pr
     </p>
 
     <p>
-  <a href="[https://resolver.tudelft.nl/uuid:0b2ca2fb-cabc-4ba2-9b5e-77cf7dcc6e02](https://resolver.tudelft.nl/uuid:b74f4eb7-f034-49a4-b166-59bb96f3864b)">Access the finished thesis via the TU Delft Repository</a>.
+  <a href="https://resolver.tudelft.nl/uuid:0b2ca2fb-cabc-4ba2-9b5e-77cf7dcc6e02">Access the finished thesis via the TU Delft Repository</a>.
 </p>
   </div>
 
