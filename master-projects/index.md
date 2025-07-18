@@ -112,7 +112,6 @@ The information below provides research directions that would fit within CityAI 
 {% include_relative _project-veldkamp.md %}
 {% include_relative _project-ma.md %}
 {% include_relative _project-kedar.md %}
-{% include_relative _project-herfkens.md %}
 {% include_relative _project-zwetsloot.md %}
 {% include_relative _project-rozema.md %}
 
@@ -121,6 +120,7 @@ The information below provides research directions that would fit within CityAI 
 ### Finished projects
 {: #finished-projects}
 
+{% include_relative _project-herfkens.md %}
 {% include_relative _project-terra.md %}
 {% include_relative _project-bakker.md %}
 {% include_relative _project-yan.md %}
