@@ -2,8 +2,12 @@ from crossref.restful import Works
 from pybliometrics.scopus import ScopusSearch
 import pybliometrics
 import shutil
+import os
 
-pybliometrics.scopus.init(config_dir="/home/runner/.config/pybliometrics.cfg")
+if os.path.exists("/home/runner"):
+  pybliometrics.scopus.init(config_dir="/home/runner/.config/pybliometrics.cfg")
+else:
+  print("Skipping pybliometrics.scopus.init() as not in CI environment")
 
 print('query scopus...')
 
@@ -31,7 +35,7 @@ AND (
   FIRSTAUTH("Cassens") OR
   FIRSTAUTH("Nova")
 )
-''', subscriber=False).results
+''', subscriber=False, refresh=True).results
 
 print(f'{len(publications)} publications received from scopus')
 
@@ -41,7 +45,7 @@ documents = sorted(publications, key=lambda x: x.coverDate, reverse=True)
 # generate HTML and query author names from crossref
 html = '<!-- AUTO GENERATED FILE, DO NOT EDIT MANUALLY -->\n\n<ul class="publications">'
 for publication in publications:
-  print(f'processing: {publication.doi}')
+  print(f'processing: {publication.title} \n({publication.doi})')
   
   if publication.doi is None:
     print('Skipping entry as DOI is None')
