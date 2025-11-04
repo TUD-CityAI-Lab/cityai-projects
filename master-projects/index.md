@@ -76,7 +76,7 @@ The information below provides research directions that would fit within CityAI 
     <tr>
       <td>
         <li>Machine learning approaches to study noise pollution and soundscapes</li>
-        <li>Perception-focused soundscape mapping with noise sensors</li>
+        <li>Soundscape mapping from sensor data and geospatial information</li>
       </td>
       <td><a href="mailto:l.cassens@tudelft.nl">Lion Cassens</a></td>
     </tr>
@@ -109,17 +109,16 @@ The information below provides research directions that would fit within CityAI 
 ### Ongoing projects
 {: #ongoing-projects}
 
-{% include_relative _project-veldkamp.md %}
-{% include_relative _project-ma.md %}
-{% include_relative _project-kedar.md %}
-{% include_relative _project-zwetsloot.md %}
-{% include_relative _project-rozema.md %}
-
 <hr>
 
 ### Finished projects
 {: #finished-projects}
 
+{% include_relative _project-veldkamp.md %}
+{% include_relative _project-ma.md %}
+{% include_relative _project-kedar.md %}
+{% include_relative _project-zwetsloot.md %}
+{% include_relative _project-rozema.md %}
 {% include_relative _project-herfkens.md %}
 {% include_relative _project-terra.md %}
 {% include_relative _project-bakker.md %}
