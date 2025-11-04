@@ -56,10 +56,9 @@ The soundscape sensor was developed at TU Delft. The devices are solar-powered a
 
 ### How to sign up
 {: #sign-up}
-Did we spark your interest? Then we would be delighted if you **kindly respond to the sign-up form** where you can select a timeslot for the sensor installation.<br>
-We then do a quick check whether the location is suitable and whether we have enough sensors available before confirming your participation in the study.
+Unfortunatly, this study has already been concluded. It is therefore no longer possible to sign up. We thank all participants of this project.
 
-<a class="btn btn-primary btn-lg" href="https://lioff.github.io/timeslot/" role="button" style="color: white; border-radius: 0; padding-left: 20pt; padding-right: 20pt;" target="_blank">Sign up now</a>
+If you are interested in deploying a sound sensor independently of this project or which to collaborate otherwise, then please reach out to the responsible researcher below.
 
 ### Researcher
 
