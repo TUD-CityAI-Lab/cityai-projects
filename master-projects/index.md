@@ -34,11 +34,13 @@ The information below provides research directions that would fit within CityAI 
 {% include_relative _opportunity-30kmh.md %}
 {% include_relative _opportunity-transformerhouses.md %}
 {% include_relative _opportunity-intersectionsafety.md %}
+{% include_relative _opportunity-construction-noise.md %}
+{% include_relative _opportunity-noise-sensor-comparision.md %}
 
 <table class="table table-striped"> 
   <thead>
     <tr>
-      <th>Research direction</th>
+      <th>Research directions</th>
       <th>Contact person</th>
     </tr>
   </thead>
@@ -106,10 +108,10 @@ The information below provides research directions that would fit within CityAI 
 
 <hr>
 
-### Ongoing projects
+<!-- ### Ongoing projects
 {: #ongoing-projects}
 
-<hr>
+<hr> -->
 
 ### Finished projects
 {: #finished-projects}
