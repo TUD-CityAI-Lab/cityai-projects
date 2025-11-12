@@ -62,7 +62,12 @@
   $alert-color: shift-color($value, $alert-color-scale);
 
   @if (contrast-ratio($alert-background, $alert-color) < $min-contrast-ratio) {
-    $alert-color: mix($value, color-contrast($alert-background), abs($alert-color-scale));
+    // Avoid using abs() with percentage units for broader Sass compatibility
+    $alert-color: mix(
+      $value,
+      color-contrast($alert-background),
+      if($alert-color-scale < 0, -$alert-color-scale, $alert-color-scale)
+    );
   }
   .alert-#{$state} {
     @include alert-variant($alert-background, $alert-border, $alert-color);
