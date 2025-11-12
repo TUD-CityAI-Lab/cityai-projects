@@ -108,10 +108,10 @@ The information below provides research directions that would fit within CityAI 
 
 <hr>
 
-<!-- ### Ongoing projects
+### Ongoing projects
 {: #ongoing-projects}
-
-<hr> -->
+{% include_relative _project-scheuer.md %}
+<hr>
 
 ### Finished projects
 {: #finished-projects}
