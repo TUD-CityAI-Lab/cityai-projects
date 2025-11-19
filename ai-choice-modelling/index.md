@@ -29,10 +29,15 @@ title: Understanding, automating, and assisting choice modeller's workflows thro
     <p>
     This work demonstrates how RL can support analysts by exploring broad specification spaces, proposing well-performing models, and reducing repetitive manual effort.
     </p>
-    <div class="col-sm-12" style="text-align: center;">
-      <img src="{{ 'ai-choice-modelling/dcm_rl.png' | relative_url }}" alt="DQN agent - DCM environment framework" style="max-width: 50%; height: auto;">
-      <p><em>Delphos: A DQN agent that automate the utility specification process</em></p>
-    </div>
+    <div style="text-align:center;">
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/4m3Pjy-sEEQ" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+    </iframe>
+  </div>
     <div class="col-sm-12" style="text-align: center;">
     <iframe src="{{ 'ai-choice-modelling/hEART_2025.pdf' | relative_url }}" width="80%" height="500px" style="border: none;"></iframe>
     <p>
