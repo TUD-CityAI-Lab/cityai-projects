@@ -24,7 +24,7 @@ title: Understanding, automating, and assisting choice modeller's workflows thro
     Our latest project introduces <strong>Delphos <a href="https://arxiv.org/pdf/2506.06410" target="_blank">(paper)</a></strong>, a reinforcement learning framework designed to assist analysts in the complex task of specifying discrete choice models. Selecting an appropriate model is often iterative and time-consuming due to the many modelling decisions involved, particularly when exploring nonlinear transformations, capturing observed heterogeneity, and meeting nehavioural expectations.
     </p>
     <p>
-    This project introduces <strong>Delphos</strong>, a reinforcement learning framework, which formalises an agent-environment interaction to automate the model specification process in discrete choice models. This interaction is modelled as a Markov Decision Process, in which a Deep Q-Network agent sequentially takes actions to constructs model specifications. The environment estimates these models, evaluates their performance, and provides feedback using model fit or behavioural expectations, as depicted in the below Figure:
+    This project formalises an agent-environment interaction to automate the model specification process. This interaction is modelled as a Markov Decision Process, in which a Deep Q-Network agent sequentially takes actions to constructs model specifications. The environment estimates these models, evaluates their performance, and provides feedback using model fit or behavioural expectations, as depicted in the below Figure:
     </p>
     <p>
     This work demonstrates how RL can support analysts by exploring broad specification spaces, proposing well-performing models, and reducing repetitive manual effort.
