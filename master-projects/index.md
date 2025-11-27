@@ -84,20 +84,6 @@ The information below provides research directions that would fit within CityAI 
     </tr>
     <tr>
       <td>
-        <li>Data-driven analysis of segregation patterns in cities</li>
-        <br>
-      </td>
-      <td><a href="mailto:l.j.spierenburg@tudelft.nl">Lucas Spierenburg</a></td>
-    </tr>
-    <tr>
-      <td>
-        <li>Safety analysis on the interactions between Automated Vehicles and human road users in urban traffic. Data has been well processed and handy to use.</li>
-        <br>
-      </td>
-      <td><a href="mailto:Y.jiao-1@tudelft.nl">Yiru Jiao</a></td>
-    </tr>
-    <tr>
-      <td>
         <li>Understanding the choice modeller's decisions and their impacts on modelling outcomes</li>
         <br>
       </td>
