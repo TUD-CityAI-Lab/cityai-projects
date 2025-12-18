@@ -31,9 +31,7 @@ The ideal student for an MSc project at the CityAI Lab has the following profile
 The information below provides research directions that would fit within CityAI Lab and the person to get in contact with. 
 
 {% include_relative _opportunity-transformerhouses.md %}
-{% include_relative _opportunity-metrostations.md %}
 {% include_relative _opportunity-30kmh.md %}
-{% include_relative _opportunity-transformerhouses.md %}
 {% include_relative _opportunity-intersectionsafety.md %}
 {% include_relative _opportunity-construction-noise.md %}
 {% include_relative _opportunity-noise-sensor-comparision.md %}
@@ -107,7 +105,6 @@ The information below provides research directions that would fit within CityAI 
 {% include_relative _project-veldkamp.md %}
 {% include_relative _project-ma.md %}
 {% include_relative _project-kedar.md %}
-<!-- {% include_relative _project-zwetsloot.md %} -->
 {% include_relative _project-rozema.md %}
 {% include_relative _project-herfkens.md %}
 {% include_relative _project-terra.md %}
