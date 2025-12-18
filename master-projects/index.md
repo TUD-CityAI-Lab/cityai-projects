@@ -105,8 +105,7 @@ The information below provides research directions that would fit within CityAI 
 
 {% include_relative _project-veldkamp.md %}
 {% include_relative _project-ma.md %}
-{% include_relative _project-kedar.md %}
-{% include_relative _project-zwetsloot.md %}
+<!-- {% include_relative _project-kedar.md %} {% include_relative _project-zwetsloot.md %} -->
 {% include_relative _project-rozema.md %}
 {% include_relative _project-herfkens.md %}
 {% include_relative _project-terra.md %}
