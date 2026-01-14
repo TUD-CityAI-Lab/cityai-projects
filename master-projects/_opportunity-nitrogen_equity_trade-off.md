@@ -2,7 +2,7 @@
   <div class="col-sm-8">
     <h4 id="Nitrogen_equity_trade-off">Understanding peoples' preferences for cost-efficiency and equity of nitrogen deposition reduction measures</h4>
     <p>
-      The Netherlands faces significant challenges in reducing nitrogen deposition to comply with environmental regulations. Billions of euros are allocated to buy out farmers, reduce livestock numbers, and to lower nitrogen emissions, see e.g. this recent <a href="https://nos.nl/artikel/2597967-uitkoopregeling-boeren-had-1-5-miljard-goedkoper-gekund"
+      The Netherlands faces significant challenges in reducing nitrogen deposition to comply with environmental regulations. Billions of euros are allocated to buy out farmers and reduce livestock numbers to lower nitrogen emissions in environmentally threatened areas, see e.g. this recent <a href="https://nos.nl/artikel/2597967-uitkoopregeling-boeren-had-1-5-miljard-goedkoper-gekund"
          target="_blank" rel="noopener noreferrer">
         article</a>. The government thus needs to trade-off the cost-efficiency of these measures (minimising overall costs by buying out the biggest contributors) with equity considerations (fair distribution of costs and benefits across different regions and communities). How should these trade-offs be made according to citizens?
     </p>
