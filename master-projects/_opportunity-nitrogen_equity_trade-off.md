@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-sm-8">
-    <h4 id="Nitrogen_equity_trade-off">Understanding peoples' preferences for cost-efficiency and equity of nitrogen deposition reduction measures</h4>
+    <h4 id="Nitrogen_equity_trade-off">Understanding people's preferences for cost-efficiency and equity of nitrogen deposition reduction measures</h4>
     <p>
       The Netherlands faces significant challenges in reducing nitrogen deposition to comply with environmental regulations. Billions of euros are allocated to buy out farmers and reduce livestock numbers to lower nitrogen emissions in environmentally threatened areas, see e.g. this recent <a href="https://nos.nl/artikel/2597967-uitkoopregeling-boeren-had-1-5-miljard-goedkoper-gekund"
          target="_blank" rel="noopener noreferrer">
