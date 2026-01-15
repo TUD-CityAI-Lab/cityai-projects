@@ -35,7 +35,6 @@ The information below provides research directions that would fit within CityAI 
 {% include_relative _opportunity-30kmh.md %}
 {% include_relative _opportunity-intersectionsafety.md %}
 {% include_relative _opportunity-construction-noise.md %}
-{% include_relative _opportunity-noise-sensor-comparision.md %}
 
 <table class="table table-striped"> 
   <thead>
@@ -96,6 +95,7 @@ The information below provides research directions that would fit within CityAI 
 
 ### Ongoing projects
 {: #ongoing-projects}
+{% include_relative _project-kastelein.md %}
 {% include_relative _project-prosperini.md %}
 {% include_relative _project-scheuer.md %}
 <hr>
