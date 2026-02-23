@@ -15,6 +15,11 @@ title: "Vehicle coordination in urban traffic: a perspective from human behaviou
 
 ---
 
+<div class="alert alert-primary" role="alert">
+  This project was part of a completed PhD (defended February 2026).<br>
+  The dissertation is available in the <a href="https://repository.tudelft.nl/record/uuid:ba7621cb-babf-42d0-85d6-a3ef97d3e0af">TU Delft Library</a>.
+</div>
+
 ## Inferring vehicle spacing in urban traffic from trajectory data
 {: #two-dimensional-spacing}
 
@@ -300,7 +305,7 @@ To answer this question requires high-quality and high-fidelity data. Thanks to 
       <div class="card-body">
         <h5 class="card-title"><a href="https://www.tudelft.nl/en/ceg/about-faculty/departments/transport-planning/staff/personal-pages/y-yiru-jiao">Yiru Jiao</a></h5>
         <p class="card-text">
-          PhD Candidate<br>
+          Graduated in Feb. 2026<br>
           <a href="mailto:Y.Jiao-1@tudelft.nl">Y.Jiao-1@tudelft.nl</a><br>
           <a href="https://www.linkedin.com/in/yiru-%E8%89%BA%E8%8C%B9-jiao-%E7%84%A6-697620ba">
             <img style="color: blue" src="{{ 'assets/images/linkedin.svg' | relative_url }}"  alt="LinkedIn"/>
