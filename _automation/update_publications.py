@@ -3,79 +3,97 @@ from pybliometrics.scopus import ScopusSearch
 import pybliometrics
 import shutil
 import os
+import sys
 
-if os.path.exists("/home/runner"):
-  pybliometrics.scopus.init(config_dir="/home/runner/.config/pybliometrics.cfg")
-else:
-  print("Skipping pybliometrics.scopus.init() as not in CI environment")
+# load from csv file instead
+import pandas as pd
+from datetime import datetime
 
-print('query scopus...')
+# USAGE: python update_publications.py <path_to_scopus_csv>
+# Example: python update_publications.py /Users/lion/Downloads/scopus.csv
 
-publications = ScopusSearch('''
-PUBYEAR > 2019 
-AND (
-  AU-ID("van Cranenburgh, Sander" 55342333800)OR
-  AU-ID("Kroesen, Maarten" 24344046200) OR
-  AU-ID("Calvert, Simeon C." 36695851100) OR
-  AU-ID("Cats, Oded" 35751118200) OR
-  AU-ID("Garrido-Valenzuela, Francisco" 57568162000) OR
-  AU-ID("Spierenburg, Lucas" 58288387600) OR
-  AU-ID("Jiao, Yiru" 57196345277) OR
-  AU-ID("Smeele, Nicholas V.R." 57694437300)
-) 
-AND (
-  FIRSTAUTH("van Cranenburgh") OR
-  FIRSTAUTH("Kroesen") OR
-  FIRSTAUTH("Calvert") OR
-  FIRSTAUTH("Cats") OR
-  FIRSTAUTH("Garrido-Valenzuela") OR
-  FIRSTAUTH("Spierenburg") OR
-  FIRSTAUTH("Jiao") OR
-  FIRSTAUTH("Smeele") OR
-  FIRSTAUTH("Cassens") OR
-  FIRSTAUTH("Nova")
-)
-''', subscriber=False, refresh=True).results
+if len(sys.argv) < 2:
+  print('Error: Please provide the path to an exported Scopus CSV file (requires a DOI column).')
+  print('Usage: python update_publications.py <path_to_scopus.csv>')
+  sys.exit(1)
 
-print(f'{len(publications)} publications received from scopus')
+csv_path = sys.argv[1]
+if not os.path.exists(csv_path):
+  print(f'Error: CSV file not found at {csv_path}')
+  sys.exit(1)
 
-# sort publications by date
-documents = sorted(publications, key=lambda x: x.coverDate, reverse=True)
+publications_csv = pd.read_csv(csv_path)
 
-# generate HTML and query author names from crossref
-html = '<!-- AUTO GENERATED FILE, DO NOT EDIT MANUALLY -->\n\n<ul class="publications">'
-for publication in publications:
-  print(f'processing: {publication.title} \n({publication.doi})')
+# query crossref and collect publication data
+publications_data = []
+works = Works()
+
+for idx, row in publications_csv.iterrows():
+  doi = row['DOI']
   
-  if publication.doi is None:
-    print('Skipping entry as DOI is None')
+  if pd.isna(doi):
+    print(f'Skipping entry {idx} as DOI is None')
     continue
 
-  works = Works()
-  ref = works.doi(publication.doi)
+  print(f'processing: {row["Title"]} \n({doi})')
+  
+  ref = works.doi(doi)
 
-  authors = ''
   if ref is None:
-    print('Error: authors could not be retrieved from crossref (skip)!')
+    print('Error: publication could not be retrieved from crossref (skip)!')
     continue
 
-  for author in ref['author']:
-    authors += author['family'] + ', ' + author['given'][:1] + '.' + ', '
-  authors = authors[:-2]
+  # extract authors from crossref
+  authors = ''
+  if 'author' in ref and ref['author']:
+    for author in ref['author']:
+      authors += author['family'] + ', ' + author['given'][:1] + '.' + ', '
+    authors = authors[:-2]
+  else:
+    authors = 'Author information not available'
 
+  # extract publication date from crossref (prefer published-date)
+  pub_date = None
+  if 'published-date' in ref and ref['published-date']:
+    date_parts = ref['published-date'].get('date-parts', [[]])
+    if date_parts and date_parts[0]:
+      pub_date = date_parts[0]  # [year, month, day]
+  elif 'issued' in ref and ref['issued']:
+    date_parts = ref['issued'].get('date-parts', [[]])
+    if date_parts and date_parts[0]:
+      pub_date = date_parts[0]
+
+  # use year from Scopus or Crossref
+  year = str(row['Year']) if pd.notna(row['Year']) else (pub_date[0] if pub_date else 'Unknown')
+  
+  publications_data.append({
+    'doi': doi,
+    'title': row['Title'],
+    'authors': authors,
+    'journal': row['Source title'] if pd.notna(row['Source title']) else 'Unknown',
+    'year': year,
+    'pub_date': pub_date,
+    'date_key': tuple(pub_date) if pub_date else (int(year) if isinstance(year, (int, str)) and str(year).isdigit() else 9999,)
+  })
+
+# sort by publication date (year, month, day) in descending order
+publications_data.sort(key=lambda x: x['date_key'], reverse=True)
+
+# generate HTML
+html = '<!-- AUTO GENERATED FILE, DO NOT EDIT MANUALLY -->\n\n<ul class="publications">'
+for pub in publications_data:
   html += f'''
   <li class="publication-list-item">
-    <div class="publication-title"><a href="https://doi.org/{publication.doi}">{publication.title}</a></div>
-    <div>{authors}</div>
-    <div><b class="journal-name">{publication.publicationName}</b>, {publication.coverDate[:4]}</div>
+    <div class="publication-title"><a href="https://doi.org/{pub['doi']}">{pub['title']}</a></div>
+    <div>{pub['authors']}</div>
+    <div><b class="journal-name">{pub['journal']}</b>, {pub['year']}</div>
   </li>'''
 
 html += '</ul>'
 
 shutil.copy('_automation/_publications.html', 'publications/index.html')
 
-file = open('publications/index.html', 'a') 
-file.write(html)
-file.close()
+with open('publications/index.html', 'a') as file:
+  file.write(html)
 
 print("Done!")
