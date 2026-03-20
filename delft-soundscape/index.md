@@ -3,10 +3,10 @@ layout: detached_page
 title: "Do you want to participate in Delft's soundscape study by installing a noise sensor?"
 ---
 
-<ul class="nav project-nav col-12 col-lg-auto me-lg-auto mb-2">
-  <li><a href="#how" class="nav-link px-2">How it works</a></li>
-  <li><a href="#sign-up" class="nav-link px-2">How to sign up</a></li>
-</ul>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Project Complete!</strong> This project has finished. Read the <a href="https://dx.doi.org/10.2139/ssrn.6428959">scientific article</a> or visit the <a href="{{ '/noise-pollution-and-perception/#noise-monitoring-delft' | relative_url }}">project page</a>.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
 
 ## Do you want to participate in Delft's soundscape study by installing a noise sensor?
 
@@ -59,6 +59,8 @@ The soundscape sensor was developed at TU Delft. The devices are solar-powered a
 Unfortunatly, this study has already been concluded. It is therefore no longer possible to sign up. We thank all participants of this project.
 
 If you are interested in deploying a sound sensor independently of this project or which to collaborate otherwise, then please reach out to the responsible researcher below.
+
+For related research visit the <a href="{{ '/noise-pollution-and-perception/' | relative_url }}">PhD project page about noise pollution</a>.
 
 ### Researcher
 
