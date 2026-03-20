@@ -34,7 +34,6 @@ The information below provides research directions that would fit within CityAI 
 {% include_relative _opportunity-transformerhouses.md %}
 {% include_relative _opportunity-30kmh.md %}
 {% include_relative _opportunity-intersectionsafety.md %}
-{% include_relative _opportunity-construction-noise.md %}
 
 <table class="table table-striped"> 
   <thead>
