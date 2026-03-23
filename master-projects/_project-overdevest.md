@@ -16,7 +16,7 @@ Travel Behaviour: An Activity-Based Approach</h4>
       <div class="row g-0">
         <div class="col-sm-3">
           <!-- <a href="https://www.tudelft.nl/en/"> -->
-            <img src="{{ 'master-projects/avatars/person.webp' | relative_url }}" class="contact-avatar">
+            <img src="{{ 'master-projects/avatars/chris.webp' | relative_url }}" class="contact-avatar">
           <!-- </a> -->
         </div>
         <div class="col-sm-9 gx-sm-3">
