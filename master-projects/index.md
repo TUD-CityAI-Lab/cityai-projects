@@ -94,6 +94,8 @@ The information below provides research directions that would fit within CityAI 
 
 ### Ongoing projects
 {: #ongoing-projects}
+
+{% include_relative _project-overdevest.md %}
 {% include_relative _project-berger.md %}
 {% include_relative _project-legrand.md %}
 {% include_relative _project-kastelein.md %}
