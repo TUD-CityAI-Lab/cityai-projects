@@ -9,7 +9,7 @@ title: "Do you want to participate in Delft's soundscape study by installing a n
 </div>
 
 ## Do you want to participate in Delft's soundscape study by installing a noise sensor?
-
+HELLO
 Noise pollution is a huge burden for citizens in the urban environment. Not only does noise cause stress and annoyance, but it also contributes to negative health outcomes such as heart disease and sleeping problems. To mitigate noise, one must understand the soundscape of our cities. While traffic noise is often perceived as a nuisance, bird song may have a restorative effect on our well-being. Therefore, we want to not only measure sound levels in Delft but also detect sound sources, such as traffic, birds, ambulances, crowds, etc. For this, **we need the help of citizens who are willing to install a noise sensor outside their homes.**
 
 <div class="alert" style="background-color: #93939342; color: #121212; font-size: 1.15rem; font-style: italic; border-left: 4px solid #00a6d6; padding: 10px; border-radius: 0;">
