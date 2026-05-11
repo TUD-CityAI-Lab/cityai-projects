@@ -6,5 +6,12 @@ autoprefixer:
   browsers:
     - last 4 versions
 
+sass:
+  silence_deprecations:
+    - import
+    - if-function
+    - global-builtin
+    - color-functions
+
 exclude:
   - README.md
