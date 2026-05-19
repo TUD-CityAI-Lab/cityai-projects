@@ -25,9 +25,9 @@ Data-driven methods offer a bridge between these two imperatives: they are well-
 
 <br>
 
-<!-- <center>
-<img src="{{ 'world-heritage-city/images/background.jpg' | relative_url }}" alt="Work package structure" width="80%">
-</center> -->
+<center>
+<img src="{{ 'world-heritage-city/images/background_compress.jpg' | relative_url }}" alt="Work package structure" width="80%">
+</center>
 
 <br>
 
