@@ -9,16 +9,18 @@ title: "CityAI Lab | Master projects"
   <li><a href="#finished-projects" class="nav-link px-2">Finished projects</a></li>
 </ul>
 
-
 ## MSc thesis project @ CityAI Lab
+
 We are always looking for **highly motivated** TUD students who want to work with us on state-of-the-art research. Note that slots for supervision usually fill up quickly, especially in Q3.
 <br>
 The ideal student for an MSc project at the CityAI Lab has the following profile:
+
 - Knowledge of machine learning
 - Knowledge of the domain of application, such as travel behaviour, transport systems, urban systems, etc.
 - Relevant programming skills (e.g. Python, R, Matlab)
 
 **Interested?** Please send us an email with an introduction and brief motivation, clarifying:
+
 - What topic you are interested in
 - Intended starting date
 - Your relevant experiences (projects, courses, etc.)
@@ -27,8 +29,9 @@ The ideal student for an MSc project at the CityAI Lab has the following profile
 <hr>
 
 ### Current opportunities
+
 {: #opportunities}
-The information below provides research directions that would fit within CityAI Lab and the person to get in contact with. 
+The information below provides research directions that would fit within CityAI Lab and the person to get in contact with.
 
 {% include_relative _opportunity-nitrogen_equity_trade-off.md %}
 {% include_relative _opportunity-transformerhouses.md %}
@@ -82,7 +85,10 @@ The information below provides research directions that would fit within CityAI 
     </tr>
     <tr>
       <td>
-        <li>Understanding the choice modeller's decisions and their impacts on modelling outcomes</li>
+        <li>Delphos: LLMs as decision-maker for specifying choice modelling</li>
+        <li>Delphos: LLMs as reward designer (modelling outcomes) </li>
+        <li>LLM-generated synthetic choice datasets</li>
+        <li>Hybrid choice models (theory-driven and data-driven approaches) </li>
         <br>
       </td>
       <td><a href="mailto:G.N.Nova@tudelft.nl">Gabriel Nova</a></td>
@@ -93,6 +99,7 @@ The information below provides research directions that would fit within CityAI 
 <hr>
 
 ### Ongoing projects
+
 {: #ongoing-projects}
 
 {% include_relative _project-overdevest.md %}
@@ -101,9 +108,11 @@ The information below provides research directions that would fit within CityAI 
 {% include_relative _project-kastelein.md %}
 {% include_relative _project-prosperini.md %}
 {% include_relative _project-scheuer.md %}
+
 <hr>
 
 ### Finished projects
+
 {: #finished-projects}
 
 {% include_relative _project-veldkamp.md %}
@@ -119,12 +128,12 @@ The information below provides research directions that would fit within CityAI 
 
 #### Older finished projects
 
- - [Exploring the enhancement of predictive accuracy for minority classes in travel mode choice models](http://resolver.tudelft.nl/uuid:1df779ae-acf8-44a4-9a3e-714d95669deb) (Aspasia Panagiotidou)
- - [Explainability of Deep Learning models for Urban Space perception](https://arxiv.org/abs/2208.13555) (Ruben Sangers)
- - [Uncovering taste heterogeneity and non-linearity for urban mode choice using SHAP](http://resolver.tudelft.nl/uuid:7597fb82-af7d-4a3a-8e8a-e323c7777634) (Thaddaus Weißhaar)
- - [Tranquilitree: the Potential of Trees to Mitigate Aircraft Noise Pollution from Schiphol Airport](http://resolver.tudelft.nl/uuid:b2004ab1-044d-4357-bd03-d4388b09332a) (Lanie Preston)
- - [Measuring the Evolution of Social Segregation using Public Transport Smart Card Data](http://resolver.tudelft.nl/uuid:c4d2d773-b8f0-4be1-b57c-0cdbfb0732fb) (Lukas Kolkowski)
-  - [Explainable AI: A Proof of Concept Demonstration in Financial Transaction Fraud Detection using TreeSHAP & Diverse Counterfactuals](http://resolver.tudelft.nl/uuid:cebcca1b-e6e4-47ae-8f28-063d88227c64) (Pratheep Balakrishnan)
- - Blending discrete choice modelling and computer vision (Joris van Eekeren)
- - [Bus Management using Multi-agent Reinforcement Learning](http://resolver.tudelft.nl/uuid:6e6b280e-86a1-42c0-b0cf-fc38c12aec76) (George Weijs).
- - [Automated Disruption Detections in Metro Networks using Smart Card Data](http://resolver.tudelft.nl/uuid:251de9e9-5f83-45c8-a5b7-dc682c2102d7) (Faye Jasperse)
+- [Exploring the enhancement of predictive accuracy for minority classes in travel mode choice models](http://resolver.tudelft.nl/uuid:1df779ae-acf8-44a4-9a3e-714d95669deb) (Aspasia Panagiotidou)
+- [Explainability of Deep Learning models for Urban Space perception](https://arxiv.org/abs/2208.13555) (Ruben Sangers)
+- [Uncovering taste heterogeneity and non-linearity for urban mode choice using SHAP](http://resolver.tudelft.nl/uuid:7597fb82-af7d-4a3a-8e8a-e323c7777634) (Thaddaus Weißhaar)
+- [Tranquilitree: the Potential of Trees to Mitigate Aircraft Noise Pollution from Schiphol Airport](http://resolver.tudelft.nl/uuid:b2004ab1-044d-4357-bd03-d4388b09332a) (Lanie Preston)
+- [Measuring the Evolution of Social Segregation using Public Transport Smart Card Data](http://resolver.tudelft.nl/uuid:c4d2d773-b8f0-4be1-b57c-0cdbfb0732fb) (Lukas Kolkowski)
+- [Explainable AI: A Proof of Concept Demonstration in Financial Transaction Fraud Detection using TreeSHAP & Diverse Counterfactuals](http://resolver.tudelft.nl/uuid:cebcca1b-e6e4-47ae-8f28-063d88227c64) (Pratheep Balakrishnan)
+- Blending discrete choice modelling and computer vision (Joris van Eekeren)
+- [Bus Management using Multi-agent Reinforcement Learning](http://resolver.tudelft.nl/uuid:6e6b280e-86a1-42c0-b0cf-fc38c12aec76) (George Weijs).
+- [Automated Disruption Detections in Metro Networks using Smart Card Data](http://resolver.tudelft.nl/uuid:251de9e9-5f83-45c8-a5b7-dc682c2102d7) (Faye Jasperse)
