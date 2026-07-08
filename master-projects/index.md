@@ -26,6 +26,8 @@ The ideal student for an MSc project at the CityAI Lab has the following profile
 - Your relevant experiences (projects, courses, etc.)
 - Programming skills (languages)
 
+**Procedure** [Here](../master-projects/graduation-procedure.md) you can find some additional information and clarification about the graduation procedure.
+
 <hr>
 
 ### Current opportunities
