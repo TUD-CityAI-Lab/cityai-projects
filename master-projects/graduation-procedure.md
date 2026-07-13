@@ -82,6 +82,7 @@ To submit your final thesis[^1], take the following three steps:
 1. Send a PDF to the committee by email (<20Mb, reduce file size if larger). 
 1. Upload it to MyCase. 
 1. Upload it to [TU Delft repository](https://repository.tudelft.nl/){:target="_blank"}.
+
 [^1]: For TIL students, a scientific paper must be appended to the report as Appendix A.
 
 ### Archiving datasets and code
