@@ -78,12 +78,13 @@ Before submitting the thesis, the student conducts a plagiarism check on the the
 
 ### Thesis submission
 {: #thesis-submission}
-To submit your final thesis[^1], take the following three steps:
+To submit your final thesis<sup>[1](#note1)</sup>, take the following three steps:
 1. Send a PDF to the committee by email (<20Mb, reduce file size if larger). 
-1. Upload it to MyCase. 
-1. Upload it to [TU Delft repository](https://repository.tudelft.nl/){:target="_blank"}.
+2. Upload it to MyCase. 
+3. Upload it to [TU Delft repository](https://tudelft.nl){:target="_blank"}.
 
-[^1]: For TIL students, a scientific paper must be appended to the report as Appendix A.
+<small id="note1">[1] For TIL students, a scientific paper must be appended to the report as Appendix A.</small>
+
 
 ### Archiving datasets and code
 {: #archiving-datasets-and-code}
