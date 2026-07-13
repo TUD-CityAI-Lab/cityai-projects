@@ -16,7 +16,7 @@ title: "Graduation procedure"
 </ul>
 
 ## Graduation procedure
-The full procedure of the graduation process can be found on the [TU Delft website](https://www.tudelft.nl/en/studenten/faculteiten/tbm-studentenportal/onderwijs/master/graduation-portal/graduation-phases/final-presentation-defence). But as details in this procedure may vary across committee chairs, I'm sharing mine below. 
+The full procedure of the graduation process can be found on the [TU Delft website](https://www.tudelft.nl/en/studenten/faculteiten/tbm-studentenportal/onderwijs/master/graduation-portal/graduation-phases/final-presentation-defence){:target="_blank"}. But as details in this procedure may vary across committee chairs, I'm sharing mine below. 
 Please note that this is not an official document, and the official procedure should be followed in case of discrepancies:
 
 ### Kick-off meeting
@@ -81,12 +81,12 @@ Before submitting the thesis, the student conducts a plagiarism check on the the
 To submit your final thesis, take the following three steps:
 1. Send a PDF to the committee by email (<20Mb, reduce file size if larger). 
 1. Upload it to MyCase. 
-1. Upload it to [TU Delft repository](https://repository.tudelft.nl/)
+1. Upload it to [TU Delft repository](https://repository.tudelft.nl/){:target="_blank"}.
 
 ### Archiving datasets and code
 {: #archiving-datasets-and-code}
-If you have used datasets or code in your thesis, please make sure to handle it as stated in your data management [data management plan](https://repository.tudelft.nl/). 
+If you have used datasets or code in your thesis, please make sure to handle it as stated in your data management [data management plan](https://repository.tudelft.nl/){:target="_blank"}. 
 
-In addition, please make sure to **upload your code and data** to the [CityAI lab's GitHub repository](https://github.com/TUD-CityAI-Lab) **before the defence**. Archiving your repository allows reproducibility of your work and enables future students to build upon your research. Make sure to include a README file with instructions on how to run your code and any necessary dependencies. By default, your code and data will be made private so only the committee members and future students can access them. To create your personal folder inside the repository, please contact your [Francisco Garrido-Valenzuela](mailto:f.garridoV@tudelft.nl).
+In addition, please make sure to **upload your code and data** to the [CityAI lab's GitHub repository](https://github.com/TUD-CityAI-Lab){:target="_blank"} **before the defence**. Archiving your repository allows reproducibility of your work and enables future students to build upon your research. Make sure to include a README file with instructions on how to run your code and any necessary dependencies. By default, your code and data will be made private so only the committee members and future students can access them. To create your personal folder inside the repository, please contact your [Francisco Garrido-Valenzuela](mailto:f.garridoV@tudelft.nl).
 
 If you have further questions about the procedures, feel free to drop me an email. Good luck!
