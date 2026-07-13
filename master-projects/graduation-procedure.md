@@ -84,6 +84,6 @@ To submit your final thesis, take the following three steps:
 {: #datasets-and-code}
 If you have used datasets or code in your thesis, please make sure handle it as stated in your data management [data management plan](https://repository.tudelft.nl/). 
 
-In addition, please make sure to **upload your code and data** to the [CityAI lab's GitHub repository](https://github.com/TUD-CityAI-Lab). This allows reproducibility of your work and enables future students to build upon your research. Make sure to include a README file with instructions on how to run your code and any necessary dependencies. To create your personal folder in the repository, please contact your [Francisco Garrido-Valenzuela](mailto:f.garridoV@tudelft.nl).
+In addition, please make sure to **upload your code and data** to the [CityAI lab's GitHub repository](https://github.com/TUD-CityAI-Lab) before the defence. Archiving your repository allows reproducibility of your work and enables future students to build upon your research. Make sure to include a README file with instructions on how to run your code and any necessary dependencies. By default, your code and data will be made private so only the committee members and future students can access them. To create your personal folder inside the repository, please contact your [Francisco Garrido-Valenzuela](mailto:f.garridoV@tudelft.nl).
 
 If you have further questions about the procedures, feel free to drop me an email. Good luck!
