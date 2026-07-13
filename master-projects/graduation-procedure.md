@@ -16,7 +16,7 @@ title: "Graduation procedure"
 </ul>
 
 ## Graduation procedure
-The full procedure of the graduation process can be found on the [TPM's graduation portal](https://www.tudelft.nl/en/studenten/faculteiten/tbm-studentenportal/onderwijs/master/graduation-portal/graduation-phases/final-presentation-defence){:target="_blank"} for EPA and CoSEM and on [CETG's graduation portal](https://www.tudelft.nl/studenten/faculteiten/citg-studentenportal/onderwijs/master/transport-infrastructure-logistics/programme-2025-2026/5-thesis-and-graduation){:target="_blank"} for TIL. But as details in this procedure may vary across committee chairs, I'm sharing mine below. 
+The full procedure of the graduation process can be found on the [TPM's graduation portal](https://www.tudelft.nl/en/student/faculties/tpm-student-portal/education/master/graduation-portal#c1708555){:target="_blank"} for EPA and CoSEM and on [CETG's graduation portal](https://www.tudelft.nl/studenten/faculteiten/citg-studentenportal/onderwijs/master/transport-infrastructure-logistics/programme-2025-2026/5-thesis-and-graduation){:target="_blank"} for TIL. But as details in this procedure may vary across committee chairs, I'm sharing mine below. 
 Please note that this is not an official document, and the official procedure should be followed in case of discrepancies:
 
 ### Kick-off meeting
