@@ -9,11 +9,14 @@ title: "Graduation procedure"
   <li><a href="#greenlight-meeting" class="nav-link px-2">Greenlight</a></li>
   <li><a href="#defence-cosemepa" class="nav-link px-2">Defence COSEM/EPA</a></li>
   <li><a href="#defence-til" class="nav-link px-2">Defence TIL</a></li>
+  <li><a href="#meeting-locations" class="nav-link px-2">Meeting locations</a></li>
+  <li><a href="#thesis-submission-and-plagiarism-check" class="nav-link px-2">Thesis submission and plagiarism check</a></li>
+  <li><a href="#datasets-and-code" class="nav-link px-2">Datasets and code</a></li> 
 </ul>
 
 ## Graduation procedure
-
-Details in the procedure may vary between committee chairs. Here is mine:
+The full procedure of the graduation process can be found on the [TU Delft website](https://www.tudelft.nl/en/studenten/faculteiten/tbm-studentenportal/onderwijs/master/graduation-portal/graduation-phases/final-presentation-defence). But as details in this procedure may vary across committee chairs, I'm sharing mine below. 
+Please note that this is not an official document, and the official procedure should be followed in case of discrepancies:
 
 ### Kick-off meeting
 {: #kick-off-meeting}
@@ -64,6 +67,23 @@ Details in the procedure may vary between committee chairs. Here is mine:
   - When the committee gets back, you will receive a grade (if you want this), plus a word from the daily supervisor, plus a diploma, photo, etc. (10 minutes).
 - The committee chair fills in the final assessment form and sends it to SPA.
 
+### Meeting locations
+{: #meeting-locations}
 The student is responsible for reserving the meeting locations, with TU Delft as the default location. In-person meetings are preferred, although online attendance can be arranged when needed. For external supervisors, joining online is often the most practical option. The final defence, however, takes place in person at TU Delft (audience may join online).
+
+### Thesis submission and plagiarism check
+{: #thesis-submission-and-plagiarism-check}
+One week before the defence, conducts a plagiarism check on the thesis. To do to, go to  Brightspace > Course (EPA2942, CoSEM2331, TIL5060) > Assignments >  and submit the thesis. DO NOT USE TURNITIN, as this will leave a trace in the system.
+
+To submit your final thesis, take the following three steps:
+1. Send a PDF to the committee by email (<20Mb, reduce file size if larger). 
+1. Upload it to MyCase. 
+1. Upload it to [TU Delft repository](https://repository.tudelft.nl/)
+
+### Datasets and code
+{: #datasets-and-code}
+If you have used datasets or code in your thesis, please make sure handle it as stated in your data management [data management plan](https://repository.tudelft.nl/). 
+
+In addition, please make sure to **upload your code and data** to the [CityAI lab's GitHub repository](https://github.com/TUD-CityAI-Lab). This allows reproducibility of your work and enables future students to build upon your research. Make sure to include a README file with instructions on how to run your code and any necessary dependencies. To create your personal folder in the repository, please contact your [Francisco Garrido-Valenzuela](mailto:f.garridoV@tudelft.nl).
 
 If you have further questions about the procedures, feel free to drop me an email. Good luck!
