@@ -16,7 +16,7 @@ title: "Graduation procedure"
 </ul>
 
 ## Graduation procedure
-The full procedure of the graduation process can be found on the [TU Delft website](https://www.tudelft.nl/en/studenten/faculteiten/tbm-studentenportal/onderwijs/master/graduation-portal/graduation-phases/final-presentation-defence){:target="_blank"}. But as details in this procedure may vary across committee chairs, I'm sharing mine below. 
+The full procedure of the graduation process can be found on the [TPM's graduation portal](https://www.tudelft.nl/en/studenten/faculteiten/tbm-studentenportal/onderwijs/master/graduation-portal/graduation-phases/final-presentation-defence){:target="_blank"} for EPA and CoSEM and on [CETG's graduation portal](https://www.tudelft.nl/studenten/faculteiten/citg-studentenportal/onderwijs/master/transport-infrastructure-logistics/programme-2025-2026/5-thesis-and-graduation){:target="_blank"} for TIL. But as details in this procedure may vary across committee chairs, I'm sharing mine below. 
 Please note that this is not an official document, and the official procedure should be followed in case of discrepancies:
 
 ### Kick-off meeting
@@ -39,7 +39,7 @@ Please note that this is not an official document, and the official procedure sh
 ### Greenlight meeting
 {: #greenlight-meeting}
 
-- The student sends the full thesis at least 1 week in advance. Note that the thesis must be complete, including an executive summary, references, etc. Only the preface can be missing.
+- The student sends the full thesis at least 1 week in advance. Note that the thesis must be complete, including an executive summary, references, etc. Only the preface can be missing. TIL students do not yet need to include the scientific paper.
 - The student does not prepare a presentation.
 - Each committee member provides his/her assessment of the thesis (i.e. he or she assesses whether the thesis is good enough to defend or not). Each committee member provides input to improve the thesis further. The committee chair makes the final call on whether to go ahead with the defence or whether revisions are needed (and a new GL meeting must be scheduled).
 - If the committee gives a Go, then the chair needs to approve the GL in MyCase. Note that the minimum time between GL and defence is 3.5 weeks.
@@ -78,10 +78,11 @@ Before submitting the thesis, the student conducts a plagiarism check on the the
 
 ### Thesis submission
 {: #thesis-submission}
-To submit your final thesis, take the following three steps:
+To submit your final thesis[^1], take the following three steps:
 1. Send a PDF to the committee by email (<20Mb, reduce file size if larger). 
 1. Upload it to MyCase. 
 1. Upload it to [TU Delft repository](https://repository.tudelft.nl/){:target="_blank"}.
+[^1]: For TIL students, a scientific paper must be appended to the report as Appendix A.
 
 ### Archiving datasets and code
 {: #archiving-datasets-and-code}
