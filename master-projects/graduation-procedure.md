@@ -50,7 +50,7 @@ Please note that this is not an official document, and the official procedure sh
 - The student does not prepare a presentation.
 - Each committee member provides his/her assessment of the thesis (i.e. he or she assesses whether the thesis is good enough to defend or not). Each committee member provides input to improve the thesis further. The committee chair makes the final call on whether to go ahead with the defence or whether revisions are needed (and a new GL meeting must be scheduled).
 - If the committee gives a Go, then the chair needs to approve the GL in MyCase. Note that the minimum time between GL and defence is 3.5 weeks.
-- Ideally, the full committee is present at the greenlight meeting. Formally, however, the greenlight meeting can still take place if all grading committee memnbers are present. Thus, advisors and external supervisors can be absent. If they cannot be present, they need to provide their feedback in writing (email) to the committee chair. The committee chair will then share this feedback with the student.
+- Ideally, the full committee is present at the greenlight meeting. However, if for whatever reason, the full committee cannot be present, then the greenlight meeting can still take place if all grading committee memnbers are present. In other words, advisors and external supervisors can be absent. If an advisor or external supervisor cannot be present, they need to provide their feedback in writing (email) to the committee chair. The committee chair will then share this feedback with the student.
 
 ### Defence COSEM/EPA
 {: #defence-cosemepa}
