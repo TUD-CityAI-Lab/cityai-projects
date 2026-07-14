@@ -4,6 +4,7 @@ title: "Graduation procedure"
 ---
 
 <ul class="nav project-nav col-12 col-lg-auto me-lg-auto mb-2">
+  <li><a href="#before-the-kick-off-meeting" class="nav-link px-2">Before kick-off</a></li>
   <li><a href="#kick-off-meeting" class="nav-link px-2">Kick-off</a></li>
   <li><a href="#mid-term-meeting" class="nav-link px-2">Mid-term</a></li>
   <li><a href="#greenlight-meeting" class="nav-link px-2">Greenlight</a></li>
@@ -19,13 +20,17 @@ title: "Graduation procedure"
 The full procedure of the graduation process can be found on the [TPM's graduation portal](https://www.tudelft.nl/en/student/faculties/tpm-student-portal/education/master/graduation-portal#c1708555){:target="_blank"} for EPA and CoSEM and on [CETG's graduation portal](https://www.tudelft.nl/studenten/faculteiten/citg-studentenportal/onderwijs/master/transport-infrastructure-logistics/programme-2025-2026/5-thesis-and-graduation){:target="_blank"} for TIL. But as details in this procedure may vary across committee chairs, I'm sharing mine below. 
 Please note that this is not an official document, and the official procedure should be followed in case of discrepancies:
 
+### Before the kick-off meeting
+{: #before-the-kick-off-meeting} 
+- To have a succesful kick-off meeting, the student should have a clear research proposal. But, of course, not everything can be known at this stage. The moment to have a kick-off meeting is when the main ideas are clear. This means that the student should have a clear idea of the research questions, the methods and data to be used, and the expected results. The student should also have a clear idea of the timeline and the resources needed for the research (feasibility) as well as have a clear idea of the expected contribution to the field and how it fits into the MSc programme's objectives. It is highly recommended to discuss a first draft of the research proposal with each member of the committee before the kick-off meeting. This will help to get everyone on the same page and to avoid misunderstandings. 
+
 ### Kick-off meeting
 {: #kick-off-meeting}
 
 - The student sends the research proposal 1 week in advance to the committee.
 - The student prepares a 10/15-minute presentation.
 - Q & A with the committee.
-- The committee assess the research proposal & presentation in terms of feasibility, scientific contribution and fit to your MSc programme's objectives.
+- The committee assess the research proposal & presentation in terms of **feasibility**, **scientific contribution** and **fit to your MSc programme's objectives**.
 - If the committee approves the proposal, the committee chair approves kick-off in MyCase; SPA checks if all requirements are met. If so, then the student can formally start the thesis.
 
 ### Mid-term meeting
@@ -39,7 +44,7 @@ Please note that this is not an official document, and the official procedure sh
 ### Greenlight meeting
 {: #greenlight-meeting}
 
-- The student sends the full thesis at least 1 week in advance. Note that the thesis must be complete, including an executive summary, references, etc. Only the preface can be missing. TIL students do not yet need to include the scientific paper.
+- The student sends the full thesis (docx or pdf) at least **1 week in advance** by uploading it to MyCase **and** sending it to the committee by email (<20Mb, reduce file size if larger). The submitted thesis must be **complete**, including an executive summary, references, etc. Only the preface can be missing. TIL students do not yet need to include the scientific paper.
 - The student does not prepare a presentation.
 - Each committee member provides his/her assessment of the thesis (i.e. he or she assesses whether the thesis is good enough to defend or not). Each committee member provides input to improve the thesis further. The committee chair makes the final call on whether to go ahead with the defence or whether revisions are needed (and a new GL meeting must be scheduled).
 - If the committee gives a Go, then the chair needs to approve the GL in MyCase. Note that the minimum time between GL and defence is 3.5 weeks.
