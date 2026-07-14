@@ -22,7 +22,8 @@ Please note that this is not an official document, and the official procedure sh
 
 ### Before the kick-off meeting
 {: #before-the-kick-off-meeting} 
-- To have a succesful kick-off meeting, the student should have a clear research proposal. But, of course, not everything can be known at this stage. The moment to have a kick-off meeting is when the main ideas are clear. This means that the student should have a clear idea of the research questions, the methods and data to be used, and the expected results. The student should also have a clear idea of the timeline and the resources needed for the research (feasibility) as well as have a clear idea of the expected contribution to the field and how it fits into the MSc programme's objectives. It is highly recommended to discuss a first draft of the research proposal with each member of the committee before the kick-off meeting. This will help to get everyone on the same page and to avoid misunderstandings. 
+- To have a succesful kick-off meeting, the student should have a clear research proposal. But, of course, not everything can be known at this stage. The moment to have a kick-off meeting is when the main ideas are clear. This means that the student should have a clear idea of the research questions, the methods and data to be used, and the expected results. The student should also have a clear idea of the timeline and the resources needed for the research (feasibility) as well as have a clear idea of the expected contribution to the field and how it fits into the MSc programme's objectives. 
+- It is highly recommended to discuss a first draft of the research proposal with each member of the committee before the kick-off meeting. This will help to get everyone on the same page and to avoid misunderstandings. 
 
 ### Kick-off meeting
 {: #kick-off-meeting}
