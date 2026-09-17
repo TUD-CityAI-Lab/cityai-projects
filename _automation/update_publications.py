@@ -40,8 +40,8 @@ for idx, row in publications_csv.iterrows():
   ref = works.doi(doi)
 
   if ref is None:
-    print('Error: publication could not be retrieved from crossref (skip)!')
-    continue
+    print('Crossref metadata unavailable; using Scopus metadata instead.')
+    ref = {}
 
   # extract authors from crossref
   authors = ''
@@ -50,7 +50,16 @@ for idx, row in publications_csv.iterrows():
       authors += author['family'] + ', ' + author['given'][:1] + '.' + ', '
     authors = authors[:-2]
   else:
-    authors = 'Author information not available'
+    scopus_authors = row.get('Author full names')
+    if pd.notna(scopus_authors) and scopus_authors:
+      author_names = []
+      for author in scopus_authors.split(';'):
+        name = author.strip().rsplit(' (', 1)[0]
+        family, separator, given = name.partition(', ')
+        author_names.append(f'{family}, {given[:1]}.' if separator and given else family)
+      authors = ', '.join(author_names)
+    else:
+      authors = 'Author information not available'
 
   # extract publication date from crossref (prefer published-date)
   pub_date = None
