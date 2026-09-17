@@ -8,3 +8,6 @@ The website also contains a list of publications and an overview of available ma
 The list of publications can be updated via *python _automation/update_publications.py path-to-scopus-export.csv
 
 You can [visit the wiki for instructions](https://github.com/TUD-CityAI-Lab/cityai-projects/wiki) on how to edit the website (for lab members).
+
+You can run the website locally when implementing changes via the following command: 
+bundle exec jekyll serve
