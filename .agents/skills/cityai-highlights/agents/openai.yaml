@@ -1,0 +1,4 @@
+interface:
+  display_name: "CityAI Highlights"
+  short_description: "Publish paper, graduation and lab highlights"
+  default_prompt: "Use $cityai-highlights to add and publish a CityAI Lab highlight from the supplied facts and image."

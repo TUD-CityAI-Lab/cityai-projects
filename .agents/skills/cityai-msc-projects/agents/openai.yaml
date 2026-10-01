@@ -1,0 +1,4 @@
+interface:
+  display_name: "CityAI MSc Projects"
+  short_description: "Maintain MSc projects, profiles and Team membership"
+  default_prompt: "Use $cityai-msc-projects to update and publish a CityAI Lab MSc project and synchronise its student profile and Team membership."
