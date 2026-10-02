@@ -16,7 +16,7 @@ Prefer owner-supplied images, existing relevant repository assets, or primary-so
 
 For generic project illustrations, an available image-generation skill can help. Follow its instructions if used, and describe the image as an illustration. Never generate a student portrait, purported defence photo or fabricated journal heading. A neutral existing avatar is acceptable when no real portrait is available.
 
-For paper highlights, the authentic publisher screenshot must include the journal name, full paper title and all authors; a masthead-only image does not meet the owner's requirements. Preserve these elements in the crop and display the saved image at its natural ratio. Follow the highlights skill for capture and fallback details.
+For paper highlights, extract the image from the published PDF's first page, including its original journal banner/logos, full paper title and all authors. Preserve the PDF's recognisable journal design and typography. An HTML article-heading screenshot or masthead-only image does not meet the owner's requirements. Display the saved crop at its natural ratio. Follow the highlights skill for PDF rendering, crop selection and owner-supplied PDF-crop fallback details.
 
 Use `relative_url` for local image paths and site links. Escape HTML text and attributes. For external links opened in a new tab, include `rel="noopener noreferrer"`.
 
