@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row opportunity-row">
   <div class="col-sm-8">
     <h4 id="perceived-safety-30kmh">Evaluating perceived safety impacts of urban speed limit policies</h4>
     <p>
@@ -8,7 +8,7 @@
        <strong>In collaboration with:</strong> Municipality of Rotterdam</p>
   </div>
 
-  <div class="col-sm-4">
+  <div class="col-sm-4 opportunity-sidebar">
     {% include opportunity-illustration.html image="master-projects/images/speed-limit-safety-abstract.jpg" alt="Abstract illustration of a 30 km per hour street and road users" %}
     <div class="card contact-card">
       <div class="card-body">

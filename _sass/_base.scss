@@ -160,6 +160,81 @@ ul.publications {
   opacity: 70%;
 }
 
+// MSc opportunity artwork and contact details form one compact, aligned panel.
+.opportunity-row {
+  margin-bottom: 2.5rem;
+}
+
+.opportunity-sidebar {
+  text-align: left;
+
+  > .opportunity-illustration,
+  > .contact-card,
+  > .btn {
+    width: 100%;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  > .opportunity-illustration {
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    border: 1px solid #d9dfd3;
+    border-bottom: 0;
+    border-radius: 10px 10px 0 0;
+    background: #f5f1e7;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 3 / 2;
+    }
+
+    figcaption {
+      padding: 0.6rem 1rem 0;
+      color: #58625d;
+      font-size: 0.75rem;
+      line-height: 1.4;
+    }
+  }
+
+  > .contact-card {
+    background: #f5f1e7;
+    border: 1px solid #d9dfd3;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+
+    .card-body {
+      padding: 0.8rem 1rem 1rem;
+    }
+
+    .card-title {
+      color: #245958;
+      font-size: 1.15rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #245958;
+      text-decoration: underline;
+      text-underline-offset: 0.18em;
+    }
+
+    a:hover,
+    a:focus-visible {
+      color: #173c3b;
+    }
+  }
+}
+
 .project-cards {
   .card {
     --bs-card-inner-border-radius: 0;

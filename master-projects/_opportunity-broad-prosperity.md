@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row opportunity-row">
   <div class="col-sm-8">
     <h4 id="broad-prosperity">Understanding people’s trade-offs in broad prosperity</h4>
     <p>
@@ -6,7 +6,7 @@
     </p>
     <p><strong>Requirement:</strong> Successful completion of SEN122A, <em>Statistical Analysis of Choice Behaviour</em>.</p>
   </div>
-  <div class="col-sm-4">
+  <div class="col-sm-4 opportunity-sidebar">
     {% include opportunity-illustration.html image="master-projects/images/broad-prosperity-abstract.jpg" alt="Abstract illustration of sustainability, inclusivity and justice" %}
     <div class="card contact-card">
       <div class="card-body">

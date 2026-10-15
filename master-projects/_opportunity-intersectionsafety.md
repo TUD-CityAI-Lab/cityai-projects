@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row opportunity-row">
   <div class="col-sm-8">
     <h4 id="explainable-ai-intersection-safety">Understanding intersection safety through data-driven analysis</h4>
     <p>
@@ -8,7 +8,7 @@
        <strong>In collaboration with:</strong> Municipality of Rotterdam</p>
   </div>
 
-  <div class="col-sm-4">
+  <div class="col-sm-4 opportunity-sidebar">
     {% include opportunity-illustration.html image="master-projects/images/intersection-safety-abstract.jpg" alt="Abstract illustration of a crossroads and traffic routes" %}
     <div class="card contact-card">
       <div class="card-body">

@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row opportunity-row">
   <div class="col-sm-8">
     <h4 id="tradeoffs-locating-transformer-houses">Understanding the trade-offs in locating transformer houses in dense urban environments</h4>
     <p>
@@ -8,7 +8,7 @@
        <strong>In collaboration with:</strong> Municipality of Rotterdam</p>
   </div>
 
-  <div class="col-sm-4">
+  <div class="col-sm-4 opportunity-sidebar">
     {% include opportunity-illustration.html image="master-projects/images/transformer-houses-abstract.jpg" alt="Abstract illustration of an electricity transformer and competing urban space needs" %}
     <div class="card contact-card">
       <div class="card-body">

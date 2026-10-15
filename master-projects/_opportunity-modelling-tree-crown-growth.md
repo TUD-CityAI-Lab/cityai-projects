@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row opportunity-row">
   <div class="col-sm-8">
     <h4 id="_opportunity-modelling-tree-crown-growth">Rooted in Data: Modelling Urban Tree Crown Growth with City-Scale Data</h4>
     <p>
@@ -8,7 +8,7 @@
        <strong>In collaboration with:</strong> Municipality of Rotterdam</p>
   </div>
 
-  <div class="col-sm-4">
+  <div class="col-sm-4 opportunity-sidebar">
     {% include opportunity-illustration.html image="master-projects/images/tree-crown-growth-abstract.jpg" alt="Abstract illustration of urban tree crown growth and data" %}
     <div class="card contact-card">
       <div class="card-body">

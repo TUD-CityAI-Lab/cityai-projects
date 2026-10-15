@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row opportunity-row">
   <div class="col-sm-8">
     <h4 id="garbage-perception">Measuring the perceptual impact of urban waste placement: Bridging operational metrics and citizen-centric liveability</h4>
     <p>
@@ -8,7 +8,7 @@
        <strong>In collaboration with:</strong> K. Elmi Anaraki MSc (UrbanVue B.V.)</p>
   </div>
 
-  <div class="col-sm-4">
+  <div class="col-sm-4 opportunity-sidebar">
     {% include opportunity-illustration.html image="master-projects/images/garbage-perception-abstract.jpg" alt="Abstract illustration of urban waste and perceptions of public space" %}
     <div class="card contact-card">
       <div class="card-body">

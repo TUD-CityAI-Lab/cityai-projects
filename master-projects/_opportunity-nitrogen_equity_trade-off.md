@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row opportunity-row">
   <div class="col-sm-8">
     <h4 id="Nitrogen_equity_trade-off">Understanding people's preferences for cost-efficiency and equity of nitrogen deposition reduction measures</h4>
     <p>
@@ -10,7 +10,7 @@
     <p><strong>Supervision:</strong> Dr. Sander van Cranenburgh (TPM, TU Delft)</p>
   </div>
 
-  <div class="col-sm-4">
+  <div class="col-sm-4 opportunity-sidebar">
     {% include opportunity-illustration.html image="master-projects/images/nitrogen-equity-abstract.jpg" alt="Abstract illustration of farming, environmental protection and equity" %}
     <div class="card contact-card">
       <div class="card-body">
