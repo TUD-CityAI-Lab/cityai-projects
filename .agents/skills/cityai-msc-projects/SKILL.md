@@ -32,6 +32,8 @@ Write a clear title and normally 80–150 words covering the problem, proposed a
 
 Each new project/opportunity needs a suitable topic image in addition to any student portrait. Prefer a supplied/reusable real image, meaningful research illustration or diagram. An image-generation skill, if available, may create a generic topic illustration; do not imply it depicts actual research data or results. Save it under `master-projects/images/<slug>.<ext>` and use an `.img-fluid` image with descriptive alt text in the text column, or another placement consistent with the existing layout. Follow the shared image rules. Existing edited projects need new imagery only when requested or when adding the requested missing image.
 
+For Current opportunities, match the established `*-abstract.jpg` series: simple flat cut-paper forms, subtle paper texture, warm off-white, muted teal/sage/ochre with small terracotta accents, few details and a 3:2 landscape ratio. Use `_includes/opportunity-illustration.html` in the right column above the contact card, passing `image` and descriptive `alt`; it keeps every illustration at the same compact maximum width (320 px). Replace the old detailed broad-prosperity illustration with this series when reusing references. Keep AI illustration labelling in the shared include.
+
 For an ongoing student, add a contact card in the project fragment using their real name and portrait under `master-projects/avatars/`. Use `master-projects/avatars/person.webp` if a portrait is unavailable; explicitly report the fallback. A project illustration cannot serve as the student's portrait. Reuse the same portrait for their Team card.
 
 ## Landing-page student card

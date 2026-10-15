@@ -9,6 +9,7 @@
   </div>
 
   <div class="col-sm-4">
+    {% include opportunity-illustration.html image="master-projects/images/garbage-perception-abstract.jpg" alt="Abstract illustration of urban waste and perceptions of public space" %}
     <div class="card contact-card">
       <div class="card-body">
         <h5 class="card-title">Thesis Opportunity</h5>

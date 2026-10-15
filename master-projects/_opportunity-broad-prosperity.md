@@ -7,11 +7,7 @@
     <p><strong>Requirement:</strong> Successful completion of SEN122A, <em>Statistical Analysis of Choice Behaviour</em>.</p>
   </div>
   <div class="col-sm-4">
-    <figure>
-      <img src="{{ 'master-projects/images/broad-prosperity.jpg' | relative_url }}" class="img-fluid"
-        alt="Conceptual illustration of sustainability, inclusivity and justice in an accessible, green Dutch neighbourhood">
-      <figcaption class="small text-muted">AI-generated conceptual illustration.</figcaption>
-    </figure>
+    {% include opportunity-illustration.html image="master-projects/images/broad-prosperity-abstract.jpg" alt="Abstract illustration of sustainability, inclusivity and justice" %}
     <div class="card contact-card">
       <div class="card-body">
         <h5 class="card-title">Thesis Opportunity</h5>

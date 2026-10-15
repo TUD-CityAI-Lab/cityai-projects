@@ -9,6 +9,7 @@
   </div>
 
   <div class="col-sm-4">
+    {% include opportunity-illustration.html image="master-projects/images/tree-crown-growth-abstract.jpg" alt="Abstract illustration of urban tree crown growth and data" %}
     <div class="card contact-card">
       <div class="card-body">
         <h5 class="card-title">Thesis Opportunity</h5>

@@ -11,6 +11,7 @@
   </div>
 
   <div class="col-sm-4">
+    {% include opportunity-illustration.html image="master-projects/images/nitrogen-equity-abstract.jpg" alt="Abstract illustration of farming, environmental protection and equity" %}
     <div class="card contact-card">
       <div class="card-body">
         <h5 class="card-title">Thesis Opportunity</h5>
