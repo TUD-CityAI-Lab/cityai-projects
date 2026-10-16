@@ -37,6 +37,7 @@ The information below provides research directions that would fit within CityAI 
 
 {% include_relative _opportunity-delphos-llm.md %}
 {% include_relative _opportunity-synthetic-choice-data.md %}
+{% include_relative _opportunity-mllm-choice-modelling.md %}
 {% include_relative _opportunity-broad-prosperity.md %}
 {% include_relative _opportunity-garbage-perception.md %}
 {% include_relative _opportunity-modelling-tree-crown-growth.md %}

@@ -1,6 +1,6 @@
 <div class="row opportunity-row">
   <div class="col-sm-8">
-    <h4 id="synthetic-choice-data">Generating Synthetic Transport Choice Datasets with Behaviourally Guided LLMs and Generative Models</h4>
+    <h4 id="synthetic-choice-data">Generating synthetic transport choice datasets with GenAI</h4>
     <p>
       Collecting discrete choice experiment data to understand travel decisions is expensive and time-consuming, while standard LLM-generated responses often lack behavioural realism and population diversity. In this MSc thesis, you will design and evaluate a pipeline that constructs synthetic traveller personas combining socio-demographic attributes with explicit behavioural guidance, such as travel attitudes and time-cost trade-offs. Beyond LLM personas, this project invites you to explore complementary generative AI approaches—such as Conditional Variational Autoencoders (C-VAEs) or Generative Adversarial Networks (GANs)—to synthesise realistic choice patterns. You will assess the generated datasets in terms of statistical fidelity, diversity, and behavioural plausibility. Ultimately, your findings will help establish reliable generative methodologies for creating synthetic travel choice data to support transport planning and policymaking.
     </p>
