@@ -4,7 +4,8 @@
     <p>
       Stated choice experiments increasingly incorporate visual stimuli to study how subjective environmental perceptions shape travel decisions, yet collecting these image-based data remains expensive and time-consuming. While Large Language Models (LLMs) can interpret images and generate text, their ability to reproduce the full distribution of human perceptions and decision rules remains largely untested. In this thesis, you will evaluate LLMs as synthetic respondents using an image-based stated preference dataset (e.g., <a href="https://zenodo.org/records/17779261" target="_blank" rel="noopener noreferrer">perceived safety and first/last-mile mode choices</a>). You will investigate whether persona-conditioned prompts can replicate observed taste heterogeneity, identifying the minimum individual information required for an LLM to emulate specific traveller subgroups. Your findings will help establish whether generative AI can serve as a credible, cost-effective tool in visual choice experiments and urban travel analysis.
     </p>
-    <p><strong>Supervision:</strong> Gabriel Nova (TPM, TU Delft)</p>
+    <p><strong>Requirement:</strong> Successful completion of SEN122A, <em>Statistical Analysis of Choice Behaviour</em>.<br>
+       <strong>Supervision:</strong> Gabriel Nova (TPM, TU Delft)</p>
   </div>
 
   <div class="col-sm-4 opportunity-sidebar">
