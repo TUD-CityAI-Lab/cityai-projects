@@ -35,16 +35,13 @@ The ideal student for an MSc project at the CityAI Lab has the following profile
 {: #opportunities}
 The information below provides research directions that would fit within CityAI Lab and the person to get in contact with.
 
-{% include_relative _opportunity-delphos-llm.md %}
-{% include_relative _opportunity-synthetic-choice-data.md %}
-{% include_relative _opportunity-mllm-choice-modelling.md %}
 {% include_relative _opportunity-broad-prosperity.md %}
 {% include_relative _opportunity-garbage-perception.md %}
-{% include_relative _opportunity-modelling-tree-crown-growth.md %}
+{% include_relative _opportunity-synthetic-choice-data.md %}
 {% include_relative _opportunity-nitrogen_equity_trade-off.md %}
+{% include_relative _opportunity-delphos-llm.md %}
 {% include_relative _opportunity-transformerhouses.md %}
-{% include_relative _opportunity-30kmh.md %}
-{% include_relative _opportunity-intersectionsafety.md %}
+{% include_relative _opportunity-mllm-choice-modelling.md %}
 
 <table class="table table-striped"> 
   <thead>
